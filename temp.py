@@ -1,85 +1,100 @@
-#!/usr/bin/env python3
-"""
-sec_form4_search.py
-
-Query SEC EDGAR JSON search API for Form 4 filings with date filtering
-and save the raw results to a JSON file.
-"""
-
-import requests
-import sys
-import argparse
 import json
-from datetime import datetime
+import pandas as pd
+from collections import defaultdict
+import os
 
-# SEC EFTS Search Endpoint
-SEARCH_URL = "https://efts.sec.gov/LATEST/search-index"
-
-# IMPORTANT: The SEC requires a descriptive User-Agent
-HEADERS = {
-    "User-Agent": "walter schoenly wschoenly@tutanota.com",
-    "Accept": "application/json",
-}
-
-def fetch_sec_data(params):
-    """Executes the GET request to the SEC API."""
-    response = requests.get(SEARCH_URL, params=params, headers=HEADERS, timeout=15)
-    response.raise_for_status()
-    return response.json()
-
-def save_to_file(data, filename):
-    """Saves the dictionary data to a formatted JSON file."""
-    try:
-        with open(filename, 'w', encoding='utf-8') as f:
-            json.dump(data, f, indent=4)
-        print(f"\n[SUCCESS] Raw results saved to: {filename}")
-    except IOError as e:
-        print(f"[ERROR] Could not save file: {e}")
-
-def main():
-    parser = argparse.ArgumentParser(description="Search SEC Form 4 filings and save to JSON.")
+def analyze_insider_clusters(input_filename, share_threshold=10000):
+    """
+    Analyzes insider trading data for clusters of high-level activity.
     
-    # Search parameters
-    parser.add_argument("--query", default="form 4", help="Search query (default: 'form 4')")
-    parser.add_argument("--start", help="Start date (YYYY-MM-DD)")
-    parser.add_argument("--end", help="End date (YYYY-MM-DD)")
-    parser.add_argument("--count", default="20", help="Number of results to return")
-    parser.add_argument("--output", default="sec_results.json", help="Output filename")
+    :param input_filename: The name of the JSON file to review.
+    :param share_threshold: Minimum total shares per company to be included in the report.
+    """
+    if not os.path.exists(input_filename):
+        print(f"Error: The file '{input_filename}' was not found.")
+        return
 
-    args = parser.parse_args()
+    with open(input_filename, 'r') as f:
+        try:
+            data = json.load(f)
+        except json.JSONDecodeError:
+            print(f"Error: Failed to decode JSON from '{input_filename}'.")
+            return
 
-    # Build params for the SEC EFTS API
-    params = {
-        "q": args.query,
-        "filter_forms": "4",
-        "count": args.count,
-    }
+    # Dictionary to aggregate activity by company
+    company_activity = defaultdict(lambda: {
+        "insiders": set(),
+        "total_shares_bought": 0,
+        "total_shares_sold": 0,
+        "total_value_bought": 0.0,
+        "total_value_sold": 0.0,
+        "insider_details": []
+    })
 
-    # Add date filters if provided
-    # The SEC EFTS API uses 'startdt' and 'enddt' in YYYY-MM-DD format
-    if args.start:
-        params["startdt"] = args.start
-    if args.end:
-        params["enddt"] = args.end
+    # Filter keywords for high-level roles
+    target_roles = ['Director', 'President', 'CEO', 'COO', 'CFO', 'VP', 'General Counsel', 'Chief']
 
-    print(f"Searching SEC for: '{args.query}'...")
-    if args.start or args.end:
-        print(f"Date Range: {args.start or 'Beginning'} to {args.end or 'Present'}")
-
-    try:
-        json_data = fetch_sec_data(params)
+    for entry in data:
+        company = entry['company_name']
+        insider = entry['insider_name']
+        role = entry.get('role', 'N/A')
+        is_board = entry.get('is_on_board', False)
         
-        # Display high-level summary
-        hits = json_data.get("hits", {}).get("total", {}).get("value", 0)
-        print(f"Found approximately {hits} total matches.")
-        
-        # Save the full raw response
-        save_to_file(json_data, args.output)
+        # Check if insider is a Director or a C-Suite Officer
+        is_high_level = is_board or any(r.lower() in str(role).lower() for r in target_roles)
 
-    except requests.HTTPError as e:
-        print(f"HTTP error occurred: {e}", file=sys.stderr)
-    except Exception as e:
-        print(f"An unexpected error occurred: {e}", file=sys.stderr)
+        if is_high_level:
+            for tx in entry['transactions']:
+                shares = tx['shares']
+                price = tx.get('price_per_share', 0.0)
+                
+                # Use total_value if present, otherwise calculate it
+                value = tx.get('total_value', 0.0)
+                if value == 0 and price > 0:
+                    value = shares * price
+                
+                if tx['action'] == 'BUY':
+                    company_activity[company]["total_shares_bought"] += shares
+                    company_activity[company]["total_value_bought"] += value
+                else:
+                    company_activity[company]["total_shares_sold"] += shares
+                    company_activity[company]["total_value_sold"] += value
+            
+            # Record unique high-level individuals
+            if insider not in company_activity[company]["insiders"]:
+                company_activity[company]["insiders"].add(insider)
+                company_activity[company]["insider_details"].append(f"{insider} ({role})")
+
+    # Generate results for companies with more than one unique high-level insider
+    results = []
+    for company, info in company_activity.items():
+        total_volume = info["total_shares_bought"] + info["total_shares_sold"]
+        
+        if len(info["insiders"]) > 1 and total_volume >= share_threshold:
+            net_shares = info["total_shares_bought"] - info["total_shares_sold"]
+            net_value = info["total_value_bought"] - info["total_value_sold"]
+            results.append({
+                "Company": company,
+                "Insiders Count": len(info["insiders"]),
+                "Net Shares": net_shares,
+                "Net Value ($)": net_value,
+                "Insiders Involved": "; ".join(info["insider_details"])
+            })
+
+    # Output results
+    df = pd.DataFrame(results)
+    if not df.empty:
+        df = df.sort_values(by="Insiders Count", ascending=False)
+        output_file = f"analysis_of_{input_filename.split('.')[0]}.csv"
+        df.to_csv(output_file, index=False)
+        print(f"Analysis complete. Results saved to {output_file}")
+        print(df)
+    else:
+        print(f"No high-level insider clusters meeting the threshold were found in '{input_filename}'.")
+
+# --- CONFIGURATION ---
+# Set the name of the file you want to review here:
+FILE_TO_REVIEW = 'insider_analysis.json'
 
 if __name__ == "__main__":
-    main()
+    analyze_insider_clusters(FILE_TO_REVIEW)

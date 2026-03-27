@@ -1,0 +1,803 @@
+[
+    {
+        "insider_name": "Control Empresarial de Capitales S.A. de C.V.",
+        "company_name": "PBF Energy Inc.",
+        "role": "N/A",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-24",
+                "shares": 174000.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-24",
+                "shares": 264778.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-24",
+                "shares": 248722.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-25",
+                "shares": 362300.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-25",
+                "shares": 107400.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            }
+        ],
+        "accession_number": "0001140361-26-011464"
+    },
+    {
+        "insider_name": "RUBINSTEIN JULIE",
+        "company_name": "Adaptive Biotechnologies Corp",
+        "role": "President and COO",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-24",
+                "shares": 19060.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-25",
+                "shares": 19060.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-26",
+                "shares": 19060.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            }
+        ],
+        "accession_number": "0001780664-26-000016"
+    },
+    {
+        "insider_name": "HUMPHREY RACHEL",
+        "company_name": "Pyxis Oncology, Inc.",
+        "role": "Director",
+        "is_on_board": true,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2025-04-14",
+                "shares": 1400.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2025-04-17",
+                "shares": 200.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2025-04-21",
+                "shares": 13896.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            }
+        ],
+        "accession_number": "0000905148-26-001434"
+    },
+    {
+        "insider_name": "Lee Kang Jyh",
+        "company_name": "PHOTRONICS INC",
+        "role": "Director",
+        "is_on_board": true,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-23",
+                "shares": 10000.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            }
+        ],
+        "accession_number": "0001140361-26-011227"
+    },
+    {
+        "insider_name": "Hagen Heidi",
+        "company_name": "Vericel Corp",
+        "role": "Director",
+        "is_on_board": true,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-23",
+                "shares": 15000.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            }
+        ],
+        "accession_number": "0001140361-26-011091"
+    },
+    {
+        "insider_name": "Nolen Billy",
+        "company_name": "AAR CORP",
+        "role": "Director",
+        "is_on_board": true,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-26",
+                "shares": 1562.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            }
+        ],
+        "accession_number": "0000001750-26-000028"
+    },
+    {
+        "insider_name": "Magnetar Financial LLC",
+        "company_name": "Wheeler Real Estate Investment Trust, Inc.",
+        "role": "N/A",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-26",
+                "shares": 8840.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            }
+        ],
+        "accession_number": "0000905148-26-001444"
+    },
+    {
+        "insider_name": "Yorktown Energy Partners IX, L.P.",
+        "company_name": "Ramaco Resources, Inc.",
+        "role": "N/A",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-24",
+                "shares": 3020.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-25",
+                "shares": 3823.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-26",
+                "shares": 2364.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            }
+        ],
+        "accession_number": "0001140361-26-011472"
+    },
+    {
+        "insider_name": "Yorktown IX Associates LLC",
+        "company_name": "Ramaco Resources, Inc.",
+        "role": "N/A",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-24",
+                "shares": 3020.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-25",
+                "shares": 3823.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-26",
+                "shares": 2364.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            }
+        ],
+        "accession_number": "0001140361-26-011473"
+    },
+    {
+        "insider_name": "Yorktown XI Associates LLC",
+        "company_name": "Ramaco Resources, Inc.",
+        "role": "N/A",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-24",
+                "shares": 3060.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-25",
+                "shares": 3874.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-26",
+                "shares": 2396.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            }
+        ],
+        "accession_number": "0001140361-26-011471"
+    },
+    {
+        "insider_name": "Yorktown Energy Partners XI, L.P.",
+        "company_name": "Ramaco Resources, Inc.",
+        "role": "N/A",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-24",
+                "shares": 3060.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-25",
+                "shares": 3874.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-26",
+                "shares": 2396.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            }
+        ],
+        "accession_number": "0001140361-26-011474"
+    },
+    {
+        "insider_name": "Woodall Timothy Roy",
+        "company_name": "ioneer Ltd",
+        "role": "Director",
+        "is_on_board": true,
+        "transactions": [
+            {
+                "action": "BUY",
+                "date": "2026-03-24",
+                "shares": 200000.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            }
+        ],
+        "accession_number": "0001140361-26-011144"
+    },
+    {
+        "insider_name": "Lee Eun Young",
+        "company_name": "Nexentis Technologies Inc.",
+        "role": "N/A",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-01-29",
+                "shares": 127.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            }
+        ],
+        "accession_number": "0000897069-26-000736"
+    },
+    {
+        "insider_name": "Bradshaw Christopher Scott",
+        "company_name": "Bristow Group Inc.",
+        "role": "President and CEO",
+        "is_on_board": true,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-24",
+                "shares": 29625.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            }
+        ],
+        "accession_number": "0001525221-26-000057"
+    },
+    {
+        "insider_name": "QUIGLEY KENNETH K JR",
+        "company_name": "UMH PROPERTIES, INC.",
+        "role": "Director",
+        "is_on_board": true,
+        "transactions": [
+            {
+                "action": "BUY",
+                "date": "2026-03-25",
+                "shares": 2500.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            }
+        ],
+        "accession_number": "0000752642-26-000032"
+    },
+    {
+        "insider_name": "Weber David A.",
+        "company_name": "Northwest Natural Holding Co",
+        "role": "VP, Gas Supply",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-23",
+                "shares": 1700.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            }
+        ],
+        "accession_number": "0001733998-26-000083"
+    },
+    {
+        "insider_name": "Le Peuch Olivier",
+        "company_name": "SLB LIMITED/NV",
+        "role": "Chief Executive Officer",
+        "is_on_board": true,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-25",
+                "shares": 25000.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            }
+        ],
+        "accession_number": "0000087347-26-000071"
+    },
+    {
+        "insider_name": "Savarie David Roger",
+        "company_name": "i-80 Gold Corp.",
+        "role": "EVP, General Counsel",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "BUY",
+                "date": "2026-03-25",
+                "shares": 6500.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            }
+        ],
+        "accession_number": "0000912282-26-000514"
+    },
+    {
+        "insider_name": "Goodman Anthony Brian",
+        "company_name": "Meridian Holdings Inc./NV",
+        "role": "N/A",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-17-05:00",
+                "shares": 5500.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-20-05:00",
+                "shares": 10000.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-23-05:00",
+                "shares": 4000.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            }
+        ],
+        "accession_number": "0001477932-26-001576"
+    },
+    {
+        "insider_name": "Romaine Mark",
+        "company_name": "GLOBAL PARTNERS LP",
+        "role": "Chief Operating Officer",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-25",
+                "shares": 2065.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            }
+        ],
+        "accession_number": "0001339396-26-000058"
+    },
+    {
+        "insider_name": "Young Richard Scott",
+        "company_name": "i-80 Gold Corp.",
+        "role": "President and CEO",
+        "is_on_board": true,
+        "transactions": [
+            {
+                "action": "BUY",
+                "date": "2026-03-25",
+                "shares": 1000000.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            }
+        ],
+        "accession_number": "0000912282-26-000512"
+    },
+    {
+        "insider_name": "McBee Brannin",
+        "company_name": "CoreWeave, Inc.",
+        "role": "Chief Development Officer",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-23",
+                "shares": 13478.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-23",
+                "shares": 46498.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-23",
+                "shares": 11800.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-23",
+                "shares": 18978.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-23",
+                "shares": 9246.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-23",
+                "shares": 2246.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-23",
+                "shares": 7749.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-23",
+                "shares": 1967.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-23",
+                "shares": 3162.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-23",
+                "shares": 1541.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-23",
+                "shares": 3651.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-23",
+                "shares": 12593.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-23",
+                "shares": 3197.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-23",
+                "shares": 5140.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-23",
+                "shares": 2504.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            }
+        ],
+        "accession_number": "0001769628-26-000122"
+    },
+    {
+        "insider_name": "HIRSCH MATTHEW I",
+        "company_name": "UMH PROPERTIES, INC.",
+        "role": "Director",
+        "is_on_board": true,
+        "transactions": [
+            {
+                "action": "BUY",
+                "date": "2026-03-27",
+                "shares": 500.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            }
+        ],
+        "accession_number": "0000752642-26-000041"
+    },
+    {
+        "insider_name": "Lawrence Bryan H.",
+        "company_name": "Ramaco Resources, Inc.",
+        "role": "Director",
+        "is_on_board": true,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-24",
+                "shares": 3020.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-24",
+                "shares": 2023.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-24",
+                "shares": 3060.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-25",
+                "shares": 3823.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-25",
+                "shares": 2561.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-25",
+                "shares": 3874.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-26",
+                "shares": 2364.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-26",
+                "shares": 1583.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-26",
+                "shares": 2396.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-25",
+                "shares": 65989.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-25",
+                "shares": 53328.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-25",
+                "shares": 80683.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-26",
+                "shares": 65989.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-26",
+                "shares": 53328.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-26",
+                "shares": 80683.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            }
+        ],
+        "accession_number": "0001140361-26-011470"
+    },
+    {
+        "insider_name": "McBee Brannin",
+        "company_name": "CoreWeave, Inc.",
+        "role": "Chief Development Officer",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-23",
+                "shares": 2246.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-23",
+                "shares": 7749.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-23",
+                "shares": 1967.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-23",
+                "shares": 3162.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-23",
+                "shares": 1541.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-23",
+                "shares": 843.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-23",
+                "shares": 2906.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-23",
+                "shares": 737.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-23",
+                "shares": 1187.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-23",
+                "shares": 577.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            }
+        ],
+        "accession_number": "0001769628-26-000123"
+    },
+    {
+        "insider_name": "Psaropoulos Anastasios",
+        "company_name": "Global Ship Lease, Inc.",
+        "role": "Chief Financial Officer",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-25",
+                "shares": 23173.0,
+                "price_per_share": 0,
+                "total_value": 0.0
+            }
+        ],
+        "accession_number": "0001140361-26-011368"
+    }
+]
