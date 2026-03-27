@@ -9,36 +9,36 @@
                 "action": "SELL",
                 "date": "2026-03-24",
                 "shares": 174000.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 48.5276,
+                "total_value": 8443802.4
             },
             {
                 "action": "SELL",
                 "date": "2026-03-24",
                 "shares": 264778.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 49.5552,
+                "total_value": 13121126.75
             },
             {
                 "action": "SELL",
                 "date": "2026-03-24",
                 "shares": 248722.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 50.0871,
+                "total_value": 12457763.69
             },
             {
                 "action": "SELL",
                 "date": "2026-03-25",
                 "shares": 362300.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 49.342,
+                "total_value": 17876606.6
             },
             {
                 "action": "SELL",
                 "date": "2026-03-25",
                 "shares": 107400.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 49.7614,
+                "total_value": 5344374.36
             }
         ],
         "accession_number": "0001140361-26-011464"
@@ -53,22 +53,22 @@
                 "action": "SELL",
                 "date": "2026-03-24",
                 "shares": 19060.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 13.7,
+                "total_value": 261122.0
             },
             {
                 "action": "SELL",
                 "date": "2026-03-25",
                 "shares": 19060.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 14.27,
+                "total_value": 271986.2
             },
             {
                 "action": "SELL",
                 "date": "2026-03-26",
                 "shares": 19060.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 14.12,
+                "total_value": 269127.2
             }
         ],
         "accession_number": "0001780664-26-000016"
@@ -83,22 +83,22 @@
                 "action": "SELL",
                 "date": "2025-04-14",
                 "shares": 1400.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 0.9727,
+                "total_value": 1361.78
             },
             {
                 "action": "SELL",
                 "date": "2025-04-17",
                 "shares": 200.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 0.97,
+                "total_value": 194.0
             },
             {
                 "action": "SELL",
                 "date": "2025-04-21",
                 "shares": 13896.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 1.0335,
+                "total_value": 14361.52
             }
         ],
         "accession_number": "0000905148-26-001434"
@@ -113,8 +113,8 @@
                 "action": "SELL",
                 "date": "2026-03-23",
                 "shares": 10000.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 39.0,
+                "total_value": 390000.0
             }
         ],
         "accession_number": "0001140361-26-011227"
@@ -129,8 +129,8 @@
                 "action": "SELL",
                 "date": "2026-03-23",
                 "shares": 15000.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 32.41,
+                "total_value": 486150.0
             }
         ],
         "accession_number": "0001140361-26-011091"
@@ -145,8 +145,8 @@
                 "action": "SELL",
                 "date": "2026-03-26",
                 "shares": 1562.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 111.0019,
+                "total_value": 173384.97
             }
         ],
         "accession_number": "0000001750-26-000028"
@@ -161,8 +161,8 @@
                 "action": "SELL",
                 "date": "2026-03-26",
                 "shares": 8840.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 1.0964,
+                "total_value": 9692.18
             }
         ],
         "accession_number": "0000905148-26-001444"
@@ -177,22 +177,22 @@
                 "action": "SELL",
                 "date": "2026-03-24",
                 "shares": 3020.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 11.5756,
+                "total_value": 34958.31
             },
             {
                 "action": "SELL",
                 "date": "2026-03-25",
                 "shares": 3823.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 11.2376,
+                "total_value": 42961.34
             },
             {
                 "action": "SELL",
                 "date": "2026-03-26",
                 "shares": 2364.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 10.7833,
+                "total_value": 25491.72
             }
         ],
         "accession_number": "0001140361-26-011472"
@@ -207,22 +207,22 @@
                 "action": "SELL",
                 "date": "2026-03-24",
                 "shares": 3020.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 11.5756,
+                "total_value": 34958.31
             },
             {
                 "action": "SELL",
                 "date": "2026-03-25",
                 "shares": 3823.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 11.2376,
+                "total_value": 42961.34
             },
             {
                 "action": "SELL",
                 "date": "2026-03-26",
                 "shares": 2364.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 10.7833,
+                "total_value": 25491.72
             }
         ],
         "accession_number": "0001140361-26-011473"
@@ -237,22 +237,22 @@
                 "action": "SELL",
                 "date": "2026-03-24",
                 "shares": 3060.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 11.5756,
+                "total_value": 35421.34
             },
             {
                 "action": "SELL",
                 "date": "2026-03-25",
                 "shares": 3874.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 11.2376,
+                "total_value": 43534.46
             },
             {
                 "action": "SELL",
                 "date": "2026-03-26",
                 "shares": 2396.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 10.7833,
+                "total_value": 25836.79
             }
         ],
         "accession_number": "0001140361-26-011471"
@@ -267,22 +267,22 @@
                 "action": "SELL",
                 "date": "2026-03-24",
                 "shares": 3060.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 11.5756,
+                "total_value": 35421.34
             },
             {
                 "action": "SELL",
                 "date": "2026-03-25",
                 "shares": 3874.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 11.2376,
+                "total_value": 43534.46
             },
             {
                 "action": "SELL",
                 "date": "2026-03-26",
                 "shares": 2396.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 10.7833,
+                "total_value": 25836.79
             }
         ],
         "accession_number": "0001140361-26-011474"
@@ -297,8 +297,8 @@
                 "action": "BUY",
                 "date": "2026-03-24",
                 "shares": 200000.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 0.108,
+                "total_value": 21600.0
             }
         ],
         "accession_number": "0001140361-26-011144"
@@ -313,8 +313,8 @@
                 "action": "SELL",
                 "date": "2026-01-29",
                 "shares": 127.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 1.355,
+                "total_value": 172.09
             }
         ],
         "accession_number": "0000897069-26-000736"
@@ -329,8 +329,8 @@
                 "action": "SELL",
                 "date": "2026-03-24",
                 "shares": 29625.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 45.47,
+                "total_value": 1347048.75
             }
         ],
         "accession_number": "0001525221-26-000057"
@@ -345,8 +345,8 @@
                 "action": "BUY",
                 "date": "2026-03-25",
                 "shares": 2500.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 14.34,
+                "total_value": 35850.0
             }
         ],
         "accession_number": "0000752642-26-000032"
@@ -361,8 +361,8 @@
                 "action": "SELL",
                 "date": "2026-03-23",
                 "shares": 1700.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 52.571,
+                "total_value": 89370.7
             }
         ],
         "accession_number": "0001733998-26-000083"
@@ -377,8 +377,8 @@
                 "action": "SELL",
                 "date": "2026-03-25",
                 "shares": 25000.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 50.56,
+                "total_value": 1264000.0
             }
         ],
         "accession_number": "0000087347-26-000071"
@@ -393,8 +393,8 @@
                 "action": "BUY",
                 "date": "2026-03-25",
                 "shares": 6500.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 1.4,
+                "total_value": 9100.0
             }
         ],
         "accession_number": "0000912282-26-000514"
@@ -409,22 +409,22 @@
                 "action": "SELL",
                 "date": "2026-03-17-05:00",
                 "shares": 5500.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 9.67,
+                "total_value": 53185.0
             },
             {
                 "action": "SELL",
                 "date": "2026-03-20-05:00",
                 "shares": 10000.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 8.86,
+                "total_value": 88600.0
             },
             {
                 "action": "SELL",
                 "date": "2026-03-23-05:00",
                 "shares": 4000.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 8.54,
+                "total_value": 34160.0
             }
         ],
         "accession_number": "0001477932-26-001576"
@@ -439,8 +439,8 @@
                 "action": "SELL",
                 "date": "2026-03-25",
                 "shares": 2065.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 44.8,
+                "total_value": 92512.0
             }
         ],
         "accession_number": "0001339396-26-000058"
@@ -455,8 +455,8 @@
                 "action": "BUY",
                 "date": "2026-03-25",
                 "shares": 1000000.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 1.4,
+                "total_value": 1400000.0
             }
         ],
         "accession_number": "0000912282-26-000512"
@@ -471,106 +471,106 @@
                 "action": "SELL",
                 "date": "2026-03-23",
                 "shares": 13478.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 81.0558,
+                "total_value": 1092470.07
             },
             {
                 "action": "SELL",
                 "date": "2026-03-23",
                 "shares": 46498.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 81.8777,
+                "total_value": 3807149.29
             },
             {
                 "action": "SELL",
                 "date": "2026-03-23",
                 "shares": 11800.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 82.9811,
+                "total_value": 979176.98
             },
             {
                 "action": "SELL",
                 "date": "2026-03-23",
                 "shares": 18978.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 83.8089,
+                "total_value": 1590525.3
             },
             {
                 "action": "SELL",
                 "date": "2026-03-23",
                 "shares": 9246.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 84.7347,
+                "total_value": 783457.04
             },
             {
                 "action": "SELL",
                 "date": "2026-03-23",
                 "shares": 2246.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 81.0558,
+                "total_value": 182051.33
             },
             {
                 "action": "SELL",
                 "date": "2026-03-23",
                 "shares": 7749.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 81.8777,
+                "total_value": 634470.3
             },
             {
                 "action": "SELL",
                 "date": "2026-03-23",
                 "shares": 1967.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 82.981,
+                "total_value": 163223.63
             },
             {
                 "action": "SELL",
                 "date": "2026-03-23",
                 "shares": 3162.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 83.8089,
+                "total_value": 265003.74
             },
             {
                 "action": "SELL",
                 "date": "2026-03-23",
                 "shares": 1541.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 84.7346,
+                "total_value": 130576.02
             },
             {
                 "action": "SELL",
                 "date": "2026-03-23",
                 "shares": 3651.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 81.0559,
+                "total_value": 295935.09
             },
             {
                 "action": "SELL",
                 "date": "2026-03-23",
                 "shares": 12593.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 81.8777,
+                "total_value": 1031085.88
             },
             {
                 "action": "SELL",
                 "date": "2026-03-23",
                 "shares": 3197.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 82.981,
+                "total_value": 265290.26
             },
             {
                 "action": "SELL",
                 "date": "2026-03-23",
                 "shares": 5140.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 83.8089,
+                "total_value": 430777.75
             },
             {
                 "action": "SELL",
                 "date": "2026-03-23",
                 "shares": 2504.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 84.7348,
+                "total_value": 212175.94
             }
         ],
         "accession_number": "0001769628-26-000122"
@@ -585,8 +585,8 @@
                 "action": "BUY",
                 "date": "2026-03-27",
                 "shares": 500.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 14.48,
+                "total_value": 7240.0
             }
         ],
         "accession_number": "0000752642-26-000041"
@@ -601,106 +601,106 @@
                 "action": "SELL",
                 "date": "2026-03-24",
                 "shares": 3020.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 11.5756,
+                "total_value": 34958.31
             },
             {
                 "action": "SELL",
                 "date": "2026-03-24",
                 "shares": 2023.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 11.5756,
+                "total_value": 23417.44
             },
             {
                 "action": "SELL",
                 "date": "2026-03-24",
                 "shares": 3060.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 11.5756,
+                "total_value": 35421.34
             },
             {
                 "action": "SELL",
                 "date": "2026-03-25",
                 "shares": 3823.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 11.2376,
+                "total_value": 42961.34
             },
             {
                 "action": "SELL",
                 "date": "2026-03-25",
                 "shares": 2561.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 11.2376,
+                "total_value": 28779.49
             },
             {
                 "action": "SELL",
                 "date": "2026-03-25",
                 "shares": 3874.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 11.2376,
+                "total_value": 43534.46
             },
             {
                 "action": "SELL",
                 "date": "2026-03-26",
                 "shares": 2364.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 10.7833,
+                "total_value": 25491.72
             },
             {
                 "action": "SELL",
                 "date": "2026-03-26",
                 "shares": 1583.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 10.7833,
+                "total_value": 17069.96
             },
             {
                 "action": "SELL",
                 "date": "2026-03-26",
                 "shares": 2396.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 10.7833,
+                "total_value": 25836.79
             },
             {
                 "action": "SELL",
                 "date": "2026-03-25",
                 "shares": 65989.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 14.0605,
+                "total_value": 927838.33
             },
             {
                 "action": "SELL",
                 "date": "2026-03-25",
                 "shares": 53328.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 14.0605,
+                "total_value": 749818.34
             },
             {
                 "action": "SELL",
                 "date": "2026-03-25",
                 "shares": 80683.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 14.0605,
+                "total_value": 1134443.32
             },
             {
                 "action": "SELL",
                 "date": "2026-03-26",
                 "shares": 65989.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 13.6721,
+                "total_value": 902208.21
             },
             {
                 "action": "SELL",
                 "date": "2026-03-26",
                 "shares": 53328.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 13.6721,
+                "total_value": 729105.75
             },
             {
                 "action": "SELL",
                 "date": "2026-03-26",
                 "shares": 80683.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 13.6721,
+                "total_value": 1103106.04
             }
         ],
         "accession_number": "0001140361-26-011470"
@@ -715,71 +715,71 @@
                 "action": "SELL",
                 "date": "2026-03-23",
                 "shares": 2246.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 81.0557,
+                "total_value": 182051.1
             },
             {
                 "action": "SELL",
                 "date": "2026-03-23",
                 "shares": 7749.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 81.8776,
+                "total_value": 634469.52
             },
             {
                 "action": "SELL",
                 "date": "2026-03-23",
                 "shares": 1967.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 82.981,
+                "total_value": 163223.63
             },
             {
                 "action": "SELL",
                 "date": "2026-03-23",
                 "shares": 3162.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 83.8088,
+                "total_value": 265003.43
             },
             {
                 "action": "SELL",
                 "date": "2026-03-23",
                 "shares": 1541.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 84.7346,
+                "total_value": 130576.02
             },
             {
                 "action": "SELL",
                 "date": "2026-03-23",
                 "shares": 843.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 81.0556,
+                "total_value": 68329.87
             },
             {
                 "action": "SELL",
                 "date": "2026-03-23",
                 "shares": 2906.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 81.8777,
+                "total_value": 237936.6
             },
             {
                 "action": "SELL",
                 "date": "2026-03-23",
                 "shares": 737.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 82.981,
+                "total_value": 61157.0
             },
             {
                 "action": "SELL",
                 "date": "2026-03-23",
                 "shares": 1187.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 83.8089,
+                "total_value": 99481.16
             },
             {
                 "action": "SELL",
                 "date": "2026-03-23",
                 "shares": 577.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 84.7347,
+                "total_value": 48891.92
             }
         ],
         "accession_number": "0001769628-26-000123"
@@ -794,8 +794,8 @@
                 "action": "SELL",
                 "date": "2026-03-25",
                 "shares": 23173.0,
-                "price_per_share": 0,
-                "total_value": 0.0
+                "price_per_share": 39.0042,
+                "total_value": 903844.33
             }
         ],
         "accession_number": "0001140361-26-011368"
