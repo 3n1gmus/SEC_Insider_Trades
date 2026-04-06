@@ -1,0 +1,2976 @@
+[
+    {
+        "ticker": "WLFC",
+        "insider_name": "WILLIS CHARLES F IV",
+        "company_name": "WILLIS LEASE FINANCE CORP",
+        "role": "Executive Chairman",
+        "is_on_board": true,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-25",
+                "shares": 1000.0,
+                "price_per_share": 175.922,
+                "total_value": 175922.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-25",
+                "shares": 1000.0,
+                "price_per_share": 177.567,
+                "total_value": 177567.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-26",
+                "shares": 3170.0,
+                "price_per_share": 171.3549,
+                "total_value": 543195.03
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-26",
+                "shares": 200.0,
+                "price_per_share": 172.316,
+                "total_value": 34463.2
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-26",
+                "shares": 100.0,
+                "price_per_share": 173.5,
+                "total_value": 17350.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-26",
+                "shares": 800.0,
+                "price_per_share": 175.18,
+                "total_value": 140144.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-27",
+                "shares": 478.0,
+                "price_per_share": 168.023,
+                "total_value": 80314.99
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-27",
+                "shares": 1531.0,
+                "price_per_share": 168.9933,
+                "total_value": 258728.74
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-27",
+                "shares": 5652.0,
+                "price_per_share": 170.2617,
+                "total_value": 962319.13
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-27",
+                "shares": 2066.0,
+                "price_per_share": 170.9033,
+                "total_value": 353086.22
+            }
+        ],
+        "accession_number": "0000905148-26-001455"
+    },
+    {
+        "ticker": "WLFC",
+        "insider_name": "WILLIS CHARLES F IV",
+        "company_name": "WILLIS LEASE FINANCE CORP",
+        "role": "Executive Chairman",
+        "is_on_board": true,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-18",
+                "shares": 238.0,
+                "price_per_share": 167.5501,
+                "total_value": 39876.92
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-30",
+                "shares": 1859.0,
+                "price_per_share": 162.5404,
+                "total_value": 302162.6
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-30",
+                "shares": 1205.0,
+                "price_per_share": 163.3944,
+                "total_value": 196890.25
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-30",
+                "shares": 1235.0,
+                "price_per_share": 164.3783,
+                "total_value": 203007.2
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-30",
+                "shares": 1091.0,
+                "price_per_share": 166.7082,
+                "total_value": 181878.65
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-30",
+                "shares": 331.0,
+                "price_per_share": 167.987,
+                "total_value": 55603.7
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-31",
+                "shares": 945.0,
+                "price_per_share": 165.1134,
+                "total_value": 156032.16
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-31",
+                "shares": 600.0,
+                "price_per_share": 166.51,
+                "total_value": 99906.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-31",
+                "shares": 1300.0,
+                "price_per_share": 169.5217,
+                "total_value": 220378.21
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-31",
+                "shares": 437.0,
+                "price_per_share": 170.4882,
+                "total_value": 74503.34
+            }
+        ],
+        "accession_number": "0000905148-26-001487"
+    },
+    {
+        "ticker": "PBF",
+        "insider_name": "Control Empresarial de Capitales S.A. de C.V.",
+        "company_name": "PBF Energy Inc.",
+        "role": "N/A",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-04",
+                "shares": 341697.0,
+                "price_per_share": 41.6406,
+                "total_value": 14228468.1
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-04",
+                "shares": 280964.0,
+                "price_per_share": 42.3213,
+                "total_value": 11890761.73
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-04",
+                "shares": 117339.0,
+                "price_per_share": 43.076,
+                "total_value": 5054494.76
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-04",
+                "shares": 163100.0,
+                "price_per_share": 44.8648,
+                "total_value": 7317448.88
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-05",
+                "shares": 205000.0,
+                "price_per_share": 46.5669,
+                "total_value": 9546214.5
+            }
+        ],
+        "accession_number": "0001140361-26-008250"
+    },
+    {
+        "ticker": "ZLAB",
+        "insider_name": "Edmondson Frazor Titus III",
+        "company_name": "Zai Lab Ltd",
+        "role": "Chief Legal Officer",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-04-02",
+                "shares": 4194.0,
+                "price_per_share": 20.39,
+                "total_value": 85515.66
+            }
+        ],
+        "accession_number": "0000905148-26-001545"
+    },
+    {
+        "ticker": "PBF",
+        "insider_name": "Control Empresarial de Capitales S.A. de C.V.",
+        "company_name": "PBF Energy Inc.",
+        "role": "N/A",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-24",
+                "shares": 174000.0,
+                "price_per_share": 48.5276,
+                "total_value": 8443802.4
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-24",
+                "shares": 264778.0,
+                "price_per_share": 49.5552,
+                "total_value": 13121126.75
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-24",
+                "shares": 248722.0,
+                "price_per_share": 50.0871,
+                "total_value": 12457763.69
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-25",
+                "shares": 362300.0,
+                "price_per_share": 49.342,
+                "total_value": 17876606.6
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-25",
+                "shares": 107400.0,
+                "price_per_share": 49.7614,
+                "total_value": 5344374.36
+            }
+        ],
+        "accession_number": "0001140361-26-011464"
+    },
+    {
+        "ticker": "PBF",
+        "insider_name": "Control Empresarial de Capitales S.A. de C.V.",
+        "company_name": "PBF Energy Inc.",
+        "role": "N/A",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-26",
+                "shares": 400001.0,
+                "price_per_share": 49.613,
+                "total_value": 19845249.61
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-26",
+                "shares": 236999.0,
+                "price_per_share": 50.5565,
+                "total_value": 11981839.94
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-27",
+                "shares": 500000.0,
+                "price_per_share": 50.3816,
+                "total_value": 25190800.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-27",
+                "shares": 100000.0,
+                "price_per_share": 51.2298,
+                "total_value": 5122980.0
+            }
+        ],
+        "accession_number": "0001140361-26-012032"
+    },
+    {
+        "ticker": "ADPT",
+        "insider_name": "RUBINSTEIN JULIE",
+        "company_name": "Adaptive Biotechnologies Corp",
+        "role": "President and COO",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-11",
+                "shares": 122523.0,
+                "price_per_share": 13.17,
+                "total_value": 1613627.91
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-11",
+                "shares": 19060.0,
+                "price_per_share": 14.08,
+                "total_value": 268364.8
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 13660.0,
+                "price_per_share": 12.63,
+                "total_value": 172525.8
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 5400.0,
+                "price_per_share": 13.43,
+                "total_value": 72522.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-13",
+                "shares": 19060.0,
+                "price_per_share": 12.96,
+                "total_value": 247017.6
+            }
+        ],
+        "accession_number": "0001780664-26-000008"
+    },
+    {
+        "ticker": "PBF",
+        "insider_name": "Control Empresarial de Capitales S.A. de C.V.",
+        "company_name": "PBF Energy Inc.",
+        "role": "N/A",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-18",
+                "shares": 612000.0,
+                "price_per_share": 45.8552,
+                "total_value": 28063382.4
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-18",
+                "shares": 488000.0,
+                "price_per_share": 46.6551,
+                "total_value": 22767688.8
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-19",
+                "shares": 52000.0,
+                "price_per_share": 50.1825,
+                "total_value": 2609490.0
+            }
+        ],
+        "accession_number": "0001140361-26-010607"
+    },
+    {
+        "ticker": "ZLAB",
+        "insider_name": "Du Ying",
+        "company_name": "Zai Lab Ltd",
+        "role": "Chairperson & CEO",
+        "is_on_board": true,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-04-02",
+                "shares": 5576.0,
+                "price_per_share": 20.39,
+                "total_value": 113694.64
+            }
+        ],
+        "accession_number": "0000905148-26-001544"
+    },
+    {
+        "ticker": "ZLAB",
+        "insider_name": "Chen Yajing",
+        "company_name": "Zai Lab Ltd",
+        "role": "Chief Financial Officer",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-04-02",
+                "shares": 5199.0,
+                "price_per_share": 20.39,
+                "total_value": 106007.61
+            }
+        ],
+        "accession_number": "0000905148-26-001543"
+    },
+    {
+        "ticker": "PBF",
+        "insider_name": "Control Empresarial de Capitales S.A. de C.V.",
+        "company_name": "PBF Energy Inc.",
+        "role": "N/A",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-16",
+                "shares": 31941.0,
+                "price_per_share": 44.1085,
+                "total_value": 1408869.6
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-16",
+                "shares": 17259.0,
+                "price_per_share": 44.6313,
+                "total_value": 770291.61
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-17",
+                "shares": 600000.0,
+                "price_per_share": 44.4291,
+                "total_value": 26657460.0
+            }
+        ],
+        "accession_number": "0001140361-26-010166"
+    },
+    {
+        "ticker": "ADPT",
+        "insider_name": "RUBINSTEIN JULIE",
+        "company_name": "Adaptive Biotechnologies Corp",
+        "role": "President and COO",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-16",
+                "shares": 19060.0,
+                "price_per_share": 13.41,
+                "total_value": 255594.6
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-17",
+                "shares": 19060.0,
+                "price_per_share": 13.4,
+                "total_value": 255404.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-18",
+                "shares": 19060.0,
+                "price_per_share": 13.18,
+                "total_value": 251210.8
+            }
+        ],
+        "accession_number": "0001780664-26-000012"
+    },
+    {
+        "ticker": "ADPT",
+        "insider_name": "RUBINSTEIN JULIE",
+        "company_name": "Adaptive Biotechnologies Corp",
+        "role": "President and COO",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-27",
+                "shares": 2738.0,
+                "price_per_share": 12.49,
+                "total_value": 34197.62
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-27",
+                "shares": 16322.0,
+                "price_per_share": 13.48,
+                "total_value": 220020.56
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-30",
+                "shares": 19060.0,
+                "price_per_share": 12.63,
+                "total_value": 240727.8
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-31",
+                "shares": 19060.0,
+                "price_per_share": 13.45,
+                "total_value": 256357.0
+            }
+        ],
+        "accession_number": "0001780664-26-000018"
+    },
+    {
+        "ticker": "ADPT",
+        "insider_name": "RUBINSTEIN JULIE",
+        "company_name": "Adaptive Biotechnologies Corp",
+        "role": "President and COO",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-06",
+                "shares": 30941.0,
+                "price_per_share": 15.14,
+                "total_value": 468446.74
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-09",
+                "shares": 30941.0,
+                "price_per_share": 14.79,
+                "total_value": 457617.39
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-10",
+                "shares": 19460.0,
+                "price_per_share": 14.68,
+                "total_value": 285672.8
+            }
+        ],
+        "accession_number": "0001780664-26-000006"
+    },
+    {
+        "ticker": "PBF",
+        "insider_name": "Control Empresarial de Capitales S.A. de C.V.",
+        "company_name": "PBF Energy Inc.",
+        "role": "N/A",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-20",
+                "shares": 239600.0,
+                "price_per_share": 48.5473,
+                "total_value": 11631933.08
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-20",
+                "shares": 100400.0,
+                "price_per_share": 49.5319,
+                "total_value": 4973002.76
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-23",
+                "shares": 463162.0,
+                "price_per_share": 47.0037,
+                "total_value": 21770327.7
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-23",
+                "shares": 8838.0,
+                "price_per_share": 47.6443,
+                "total_value": 421080.32
+            }
+        ],
+        "accession_number": "0001140361-26-010921"
+    },
+    {
+        "ticker": "NWN",
+        "insider_name": "Karney Joseph S",
+        "company_name": "Northwest Natural Holding Co",
+        "role": "VP, Eng. & Utility Operations",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-05",
+                "shares": 0.574,
+                "price_per_share": 52.53,
+                "total_value": 30.15
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-05",
+                "shares": 0.5675,
+                "price_per_share": 52.53,
+                "total_value": 29.81
+            }
+        ],
+        "accession_number": "0001733998-26-000060"
+    },
+    {
+        "ticker": "ADPT",
+        "insider_name": "RUBINSTEIN JULIE",
+        "company_name": "Adaptive Biotechnologies Corp",
+        "role": "President and COO",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-06",
+                "shares": 30941.0,
+                "price_per_share": 15.14,
+                "total_value": 468446.74
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-09",
+                "shares": 30941.0,
+                "price_per_share": 14.79,
+                "total_value": 457617.39
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-10",
+                "shares": 19460.0,
+                "price_per_share": 14.68,
+                "total_value": 285672.8
+            }
+        ],
+        "accession_number": "0001780664-26-000006"
+    },
+    {
+        "ticker": "AXP",
+        "insider_name": "Joabar Raymond",
+        "company_name": "AMERICAN EXPRESS CO",
+        "role": "Grp. Pres., Global Comm. Serv.",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "BUY",
+                "date": "2023-09-15",
+                "shares": 9.0,
+                "price_per_share": 162.94,
+                "total_value": 1466.46
+            },
+            {
+                "action": "BUY",
+                "date": "2023-09-27",
+                "shares": 2.0,
+                "price_per_share": 150.01,
+                "total_value": 300.02
+            },
+            {
+                "action": "BUY",
+                "date": "2023-10-17",
+                "shares": 1.0,
+                "price_per_share": 154.37,
+                "total_value": 154.37
+            },
+            {
+                "action": "BUY",
+                "date": "2023-12-06",
+                "shares": 5.0,
+                "price_per_share": 168.52,
+                "total_value": 842.6
+            },
+            {
+                "action": "BUY",
+                "date": "2023-12-07",
+                "shares": 2.0,
+                "price_per_share": 169.11,
+                "total_value": 338.22
+            },
+            {
+                "action": "BUY",
+                "date": "2024-02-23",
+                "shares": 2.0,
+                "price_per_share": 214.64,
+                "total_value": 429.28
+            },
+            {
+                "action": "BUY",
+                "date": "2025-04-09",
+                "shares": 2.0,
+                "price_per_share": 261.56,
+                "total_value": 523.12
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-02",
+                "shares": 24.0,
+                "price_per_share": 309.85,
+                "total_value": 7436.4
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-13",
+                "shares": 16.0,
+                "price_per_share": 301.27,
+                "total_value": 4820.32
+            }
+        ],
+        "accession_number": "0000004962-26-000116"
+    },
+    {
+        "ticker": "WLFC",
+        "insider_name": "Willis Austin Chandler",
+        "company_name": "WILLIS LEASE FINANCE CORP",
+        "role": "Chief Executive Officer",
+        "is_on_board": true,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-04-01",
+                "shares": 983.0,
+                "price_per_share": 172.4927,
+                "total_value": 169560.32
+            },
+            {
+                "action": "SELL",
+                "date": "2026-04-01",
+                "shares": 1230.0,
+                "price_per_share": 173.5972,
+                "total_value": 213524.56
+            },
+            {
+                "action": "SELL",
+                "date": "2026-04-01",
+                "shares": 1187.0,
+                "price_per_share": 174.3748,
+                "total_value": 206982.89
+            }
+        ],
+        "accession_number": "0000905148-26-001548"
+    },
+    {
+        "ticker": "ADPT",
+        "insider_name": "RUBINSTEIN JULIE",
+        "company_name": "Adaptive Biotechnologies Corp",
+        "role": "President and COO",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-24",
+                "shares": 19060.0,
+                "price_per_share": 13.7,
+                "total_value": 261122.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-25",
+                "shares": 19060.0,
+                "price_per_share": 14.27,
+                "total_value": 271986.2
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-26",
+                "shares": 19060.0,
+                "price_per_share": 14.12,
+                "total_value": 269127.2
+            }
+        ],
+        "accession_number": "0001780664-26-000016"
+    },
+    {
+        "ticker": "ZLAB",
+        "insider_name": "Smiley Joshua L",
+        "company_name": "Zai Lab Ltd",
+        "role": "See Remarks",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-04-02",
+                "shares": 9614.0,
+                "price_per_share": 20.39,
+                "total_value": 196029.46
+            }
+        ],
+        "accession_number": "0000905148-26-001546"
+    },
+    {
+        "ticker": "ADPT",
+        "insider_name": "RUBINSTEIN JULIE",
+        "company_name": "Adaptive Biotechnologies Corp",
+        "role": "President and COO",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-19",
+                "shares": 19060.0,
+                "price_per_share": 13.18,
+                "total_value": 251210.8
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-20",
+                "shares": 19060.0,
+                "price_per_share": 13.37,
+                "total_value": 254832.2
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-23",
+                "shares": 19060.0,
+                "price_per_share": 13.83,
+                "total_value": 263599.8
+            }
+        ],
+        "accession_number": "0001780664-26-000014"
+    },
+    {
+        "ticker": "ZLAB",
+        "insider_name": "Amado Rafael",
+        "company_name": "Zai Lab Ltd",
+        "role": "See Remarks",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-04-02",
+                "shares": 9910.0,
+                "price_per_share": 20.39,
+                "total_value": 202064.9
+            }
+        ],
+        "accession_number": "0000905148-26-001542"
+    },
+    {
+        "ticker": "ZLAB",
+        "insider_name": "Edmondson Frazor Titus III",
+        "company_name": "Zai Lab Ltd",
+        "role": "Chief Legal Officer",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-13",
+                "shares": 1281.0,
+                "price_per_share": 18.628,
+                "total_value": 23862.47
+            }
+        ],
+        "accession_number": "0000905148-26-001285"
+    },
+    {
+        "ticker": "PBF",
+        "insider_name": "Control Empresarial de Capitales S.A. de C.V.",
+        "company_name": "PBF Energy Inc.",
+        "role": "N/A",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-30",
+                "shares": 85000.0,
+                "price_per_share": 51.1383,
+                "total_value": 4346755.5
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-31",
+                "shares": 200000.0,
+                "price_per_share": 50.7363,
+                "total_value": 10147260.0
+            }
+        ],
+        "accession_number": "0001140361-26-012793"
+    },
+    {
+        "ticker": "NWN",
+        "insider_name": "Rogers Melinda B.",
+        "company_name": "Northwest Natural Holding Co",
+        "role": "VP, Chief HR and",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-05",
+                "shares": 0.13,
+                "price_per_share": 52.53,
+                "total_value": 6.83
+            }
+        ],
+        "accession_number": "0001733998-26-000073"
+    },
+    {
+        "ticker": "ZLAB",
+        "insider_name": "Smiley Joshua L",
+        "company_name": "Zai Lab Ltd",
+        "role": "See Remarks",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-13",
+                "shares": 1966.0,
+                "price_per_share": 18.628,
+                "total_value": 36622.65
+            }
+        ],
+        "accession_number": "0000905148-26-001286"
+    },
+    {
+        "ticker": "ZLAB",
+        "insider_name": "Chen Yajing",
+        "company_name": "Zai Lab Ltd",
+        "role": "Chief Financial Officer",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-13",
+                "shares": 1703.0,
+                "price_per_share": 18.628,
+                "total_value": 31723.48
+            }
+        ],
+        "accession_number": "0000905148-26-001284"
+    },
+    {
+        "ticker": "ZLAB",
+        "insider_name": "Amado Rafael",
+        "company_name": "Zai Lab Ltd",
+        "role": "See Remarks",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-13",
+                "shares": 2957.0,
+                "price_per_share": 18.628,
+                "total_value": 55083.0
+            }
+        ],
+        "accession_number": "0000905148-26-001283"
+    },
+    {
+        "ticker": "NWN",
+        "insider_name": "Kravitz Zachary D",
+        "company_name": "Northwest Natural Holding Co",
+        "role": "VP, Regulatory Affairs and",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-05",
+                "shares": 0.531,
+                "price_per_share": 52.53,
+                "total_value": 27.89
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-05",
+                "shares": 0.5252,
+                "price_per_share": 52.53,
+                "total_value": 27.59
+            }
+        ],
+        "accession_number": "0001733998-26-000077"
+    },
+    {
+        "ticker": "TALO",
+        "insider_name": "Control Empresarial de Capitales S.A. de C.V.",
+        "company_name": "TALOS ENERGY INC.",
+        "role": "N/A",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-26",
+                "shares": 960000.0,
+                "price_per_share": 16.6545,
+                "total_value": 15988320.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-27",
+                "shares": 1352000.0,
+                "price_per_share": 16.6802,
+                "total_value": 22551630.4
+            }
+        ],
+        "accession_number": "0001140361-26-012061"
+    },
+    {
+        "ticker": "PBF",
+        "insider_name": "Control Empresarial de Capitales S.A. de C.V.",
+        "company_name": "PBF Energy Inc.",
+        "role": "N/A",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 265000.0,
+                "price_per_share": 43.5507,
+                "total_value": 11540935.5
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-13",
+                "shares": 380000.0,
+                "price_per_share": 43.2971,
+                "total_value": 16452898.0
+            }
+        ],
+        "accession_number": "0001140361-26-009444"
+    },
+    {
+        "ticker": "ACMR",
+        "insider_name": "Liu Tracy",
+        "company_name": "ACM Research, Inc.",
+        "role": "Director",
+        "is_on_board": true,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-10",
+                "shares": 32216.0,
+                "price_per_share": 47.06,
+                "total_value": 1516084.96
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-10",
+                "shares": 12784.0,
+                "price_per_share": 48.19,
+                "total_value": 616060.96
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-11",
+                "shares": 11623.0,
+                "price_per_share": 47.81,
+                "total_value": 555695.63
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-11",
+                "shares": 3377.0,
+                "price_per_share": 48.25,
+                "total_value": 162940.25
+            }
+        ],
+        "accession_number": "0001140361-26-009239"
+    },
+    {
+        "ticker": "PBF",
+        "insider_name": "Control Empresarial de Capitales S.A. de C.V.",
+        "company_name": "PBF Energy Inc.",
+        "role": "N/A",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-10",
+                "shares": 22000.0,
+                "price_per_share": 40.0843,
+                "total_value": 881854.6
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-11",
+                "shares": 838000.0,
+                "price_per_share": 41.9138,
+                "total_value": 35123764.4
+            }
+        ],
+        "accession_number": "0001140361-26-009268"
+    },
+    {
+        "ticker": "GSIT",
+        "insider_name": "Shu Lee-Lean",
+        "company_name": "GSI TECHNOLOGY INC",
+        "role": "Pres., CEO and Chairman",
+        "is_on_board": true,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-16",
+                "shares": 30734.0,
+                "price_per_share": 10.0226,
+                "total_value": 308034.59
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-17",
+                "shares": 36517.0,
+                "price_per_share": 10.0116,
+                "total_value": 365593.6
+            }
+        ],
+        "accession_number": "0001394413-26-000003"
+    },
+    {
+        "ticker": "ACMR",
+        "insider_name": "Dun Haiping",
+        "company_name": "ACM Research, Inc.",
+        "role": "Director",
+        "is_on_board": true,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-09",
+                "shares": 4100.0,
+                "price_per_share": 43.37,
+                "total_value": 177817.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-09",
+                "shares": 900.0,
+                "price_per_share": 43.94,
+                "total_value": 39546.0
+            }
+        ],
+        "accession_number": "0001140361-26-009039"
+    },
+    {
+        "ticker": "ZLAB",
+        "insider_name": "Du Ying",
+        "company_name": "Zai Lab Ltd",
+        "role": "Chairperson & CEO",
+        "is_on_board": true,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-11",
+                "shares": 1067.0,
+                "price_per_share": 19.084,
+                "total_value": 20362.63
+            }
+        ],
+        "accession_number": "0000905148-26-001233"
+    },
+    {
+        "ticker": "ACMR",
+        "insider_name": "McKechnie Mark",
+        "company_name": "ACM Research, Inc.",
+        "role": "See Remarks",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 11910.0,
+                "price_per_share": 44.89,
+                "total_value": 534639.9
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 47108.0,
+                "price_per_share": 45.74,
+                "total_value": 2154719.92
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 982.0,
+                "price_per_share": 46.55,
+                "total_value": 45712.1
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 8639.0,
+                "price_per_share": 44.94,
+                "total_value": 388236.66
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 29348.0,
+                "price_per_share": 45.74,
+                "total_value": 1342377.52
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 564.0,
+                "price_per_share": 46.57,
+                "total_value": 26265.48
+            }
+        ],
+        "accession_number": "0001140361-26-009456"
+    },
+    {
+        "ticker": "ZLAB",
+        "insider_name": "Du Ying",
+        "company_name": "Zai Lab Ltd",
+        "role": "Chairperson & CEO",
+        "is_on_board": true,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-06",
+                "shares": 50000.0,
+                "price_per_share": 19.4187,
+                "total_value": 970935.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-09",
+                "shares": 50000.0,
+                "price_per_share": 19.0293,
+                "total_value": 951465.0
+            }
+        ],
+        "accession_number": "0000905148-26-001219"
+    },
+    {
+        "ticker": "ACMR",
+        "insider_name": "Feng Lisa",
+        "company_name": "ACM Research, Inc.",
+        "role": "See remarks",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-05",
+                "shares": 8050.0,
+                "price_per_share": 49.81,
+                "total_value": 400970.5
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-05",
+                "shares": 6950.0,
+                "price_per_share": 50.24,
+                "total_value": 349168.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-06",
+                "shares": 14800.0,
+                "price_per_share": 46.07,
+                "total_value": 681836.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-06",
+                "shares": 200.0,
+                "price_per_share": 46.58,
+                "total_value": 9316.0
+            }
+        ],
+        "accession_number": "0001140361-26-008479"
+    },
+    {
+        "ticker": "EQIX",
+        "insider_name": "Fox-Martin Adaire",
+        "company_name": "EQUINIX INC",
+        "role": "CEO and President",
+        "is_on_board": true,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 40.0,
+                "price_per_share": 958.14,
+                "total_value": 38325.6
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 80.0,
+                "price_per_share": 960.18,
+                "total_value": 76814.4
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 40.0,
+                "price_per_share": 961.19,
+                "total_value": 38447.6
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 120.0,
+                "price_per_share": 962.5533,
+                "total_value": 115506.4
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 80.0,
+                "price_per_share": 964.04,
+                "total_value": 77123.2
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 515.0,
+                "price_per_share": 968.1205,
+                "total_value": 498582.06
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 170.0,
+                "price_per_share": 968.9965,
+                "total_value": 164729.4
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 41.0,
+                "price_per_share": 969.9178,
+                "total_value": 39766.63
+            }
+        ],
+        "accession_number": "0001101239-26-000060"
+    },
+    {
+        "ticker": "EQIX",
+        "insider_name": "Pletcher Kurt",
+        "company_name": "EQUINIX INC",
+        "role": "Chief Legal Officer",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 16.0,
+                "price_per_share": 958.0048,
+                "total_value": 15328.08
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 28.0,
+                "price_per_share": 959.004,
+                "total_value": 26852.11
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 20.0,
+                "price_per_share": 960.1291,
+                "total_value": 19202.58
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 46.0,
+                "price_per_share": 961.1728,
+                "total_value": 44213.95
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 37.0,
+                "price_per_share": 962.5967,
+                "total_value": 35616.08
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 16.0,
+                "price_per_share": 963.7176,
+                "total_value": 15419.48
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 32.0,
+                "price_per_share": 965.3438,
+                "total_value": 30891.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 36.0,
+                "price_per_share": 966.1606,
+                "total_value": 34781.78
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 164.0,
+                "price_per_share": 967.4416,
+                "total_value": 158660.42
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 101.0,
+                "price_per_share": 968.2977,
+                "total_value": 97798.07
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 63.0,
+                "price_per_share": 969.1412,
+                "total_value": 61055.9
+            }
+        ],
+        "accession_number": "0001101239-26-000066"
+    },
+    {
+        "ticker": "ACMR",
+        "insider_name": "Wang David H",
+        "company_name": "ACM Research, Inc.",
+        "role": "See Remarks",
+        "is_on_board": true,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-11",
+                "shares": 55373.0,
+                "price_per_share": 47.89,
+                "total_value": 2651812.97
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-11",
+                "shares": 4627.0,
+                "price_per_share": 48.34,
+                "total_value": 223669.18
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 10561.0,
+                "price_per_share": 44.92,
+                "total_value": 474400.12
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 38737.0,
+                "price_per_share": 45.74,
+                "total_value": 1771830.38
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 702.0,
+                "price_per_share": 46.57,
+                "total_value": 32692.14
+            }
+        ],
+        "accession_number": "0001140361-26-009401"
+    },
+    {
+        "ticker": "EQIX",
+        "insider_name": "Paladin Michael Shane",
+        "company_name": "EQUINIX INC",
+        "role": "Chief Customer & Rev Officer",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 4.0,
+                "price_per_share": 958.14,
+                "total_value": 3832.56
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 12.0,
+                "price_per_share": 960.5,
+                "total_value": 11526.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 12.0,
+                "price_per_share": 962.55,
+                "total_value": 11550.6
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 8.0,
+                "price_per_share": 964.05,
+                "total_value": 7712.4
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 24.0,
+                "price_per_share": 968.0083,
+                "total_value": 23232.2
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 52.0,
+                "price_per_share": 969.1223,
+                "total_value": 50394.36
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 6.0,
+                "price_per_share": 969.8883,
+                "total_value": 5819.33
+            }
+        ],
+        "accession_number": "0001101239-26-000065"
+    },
+    {
+        "ticker": "PYXS",
+        "insider_name": "HUMPHREY RACHEL",
+        "company_name": "Pyxis Oncology, Inc.",
+        "role": "Director",
+        "is_on_board": true,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2025-04-14",
+                "shares": 1400.0,
+                "price_per_share": 0.9727,
+                "total_value": 1361.78
+            },
+            {
+                "action": "SELL",
+                "date": "2025-04-17",
+                "shares": 200.0,
+                "price_per_share": 0.97,
+                "total_value": 194.0
+            },
+            {
+                "action": "SELL",
+                "date": "2025-04-21",
+                "shares": 13896.0,
+                "price_per_share": 1.0335,
+                "total_value": 14361.52
+            }
+        ],
+        "accession_number": "0000905148-26-001434"
+    },
+    {
+        "ticker": "ZLAB",
+        "insider_name": "Du Ying",
+        "company_name": "Zai Lab Ltd",
+        "role": "Chairperson & CEO",
+        "is_on_board": true,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-04",
+                "shares": 14290.0,
+                "price_per_share": 18.7769,
+                "total_value": 268321.9
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-04",
+                "shares": 35710.0,
+                "price_per_share": 19.3176,
+                "total_value": 689831.5
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-05",
+                "shares": 50000.0,
+                "price_per_share": 19.2211,
+                "total_value": 961055.0
+            }
+        ],
+        "accession_number": "0000905148-26-001193"
+    },
+    {
+        "ticker": "ADPT",
+        "insider_name": "RUBINSTEIN JULIE",
+        "company_name": "Adaptive Biotechnologies Corp",
+        "role": "President and COO",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-04-01",
+                "shares": 19060.0,
+                "price_per_share": 14.45,
+                "total_value": 275417.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-04-02",
+                "shares": 19060.0,
+                "price_per_share": 14.6,
+                "total_value": 278276.0
+            }
+        ],
+        "accession_number": "0001780664-26-000020"
+    },
+    {
+        "ticker": "EQIX",
+        "insider_name": "Abdel Raouf",
+        "company_name": "EQUINIX INC",
+        "role": "EVP, Global Operations",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 17.0,
+                "price_per_share": 958.0048,
+                "total_value": 16286.08
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 29.0,
+                "price_per_share": 959.004,
+                "total_value": 27811.12
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 21.0,
+                "price_per_share": 960.1291,
+                "total_value": 20162.71
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 48.0,
+                "price_per_share": 961.1728,
+                "total_value": 46136.29
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 39.0,
+                "price_per_share": 962.5967,
+                "total_value": 37541.27
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 16.0,
+                "price_per_share": 963.7176,
+                "total_value": 15419.48
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 34.0,
+                "price_per_share": 965.3438,
+                "total_value": 32821.69
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 37.0,
+                "price_per_share": 966.1606,
+                "total_value": 35747.94
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 172.0,
+                "price_per_share": 967.4416,
+                "total_value": 166399.96
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 105.0,
+                "price_per_share": 968.2977,
+                "total_value": 101671.26
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 66.0,
+                "price_per_share": 969.1412,
+                "total_value": 63963.32
+            }
+        ],
+        "accession_number": "0001101239-26-000059"
+    },
+    {
+        "ticker": "EQIX",
+        "insider_name": "Miller Simon",
+        "company_name": "EQUINIX INC",
+        "role": "Chief Accounting Officer",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 8.0,
+                "price_per_share": 958.0048,
+                "total_value": 7664.04
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 14.0,
+                "price_per_share": 959.004,
+                "total_value": 13426.06
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 10.0,
+                "price_per_share": 960.1291,
+                "total_value": 9601.29
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 23.0,
+                "price_per_share": 961.1728,
+                "total_value": 22106.97
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 19.0,
+                "price_per_share": 962.5967,
+                "total_value": 18289.34
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 8.0,
+                "price_per_share": 963.7176,
+                "total_value": 7709.74
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 19.0,
+                "price_per_share": 965.3438,
+                "total_value": 18341.53
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 18.0,
+                "price_per_share": 966.1606,
+                "total_value": 17390.89
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 85.0,
+                "price_per_share": 967.4416,
+                "total_value": 82232.54
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 52.0,
+                "price_per_share": 968.2977,
+                "total_value": 50351.48
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 33.0,
+                "price_per_share": 969.1412,
+                "total_value": 31981.66
+            }
+        ],
+        "accession_number": "0001101239-26-000064"
+    },
+    {
+        "ticker": "ZLAB",
+        "insider_name": "GAYNOR RICHARD",
+        "company_name": "Zai Lab Ltd",
+        "role": "Director",
+        "is_on_board": true,
+        "transactions": [
+            {
+                "action": "BUY",
+                "date": "2026-03-17",
+                "shares": 1731.0,
+                "price_per_share": 18.91,
+                "total_value": 32733.21
+            }
+        ],
+        "accession_number": "0000905148-26-001398"
+    },
+    {
+        "ticker": "HTFL",
+        "insider_name": "Rogers Campbell",
+        "company_name": "Heartflow, Inc.",
+        "role": "Chief Medical Officer",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-04-01",
+                "shares": 64533.0,
+                "price_per_share": 24.64,
+                "total_value": 1590093.12
+            }
+        ],
+        "accession_number": "0001464521-26-000052"
+    },
+    {
+        "ticker": "NWN",
+        "insider_name": "RUSH KIMBERLY HEITING",
+        "company_name": "Northwest Natural Holding Co",
+        "role": "President",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-05",
+                "shares": 0.785,
+                "price_per_share": 52.53,
+                "total_value": 41.24
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-05",
+                "shares": 0.3758,
+                "price_per_share": 52.53,
+                "total_value": 19.74
+            }
+        ],
+        "accession_number": "0001733998-26-000066"
+    },
+    {
+        "ticker": "EQIX",
+        "insider_name": "Lin Jonathan",
+        "company_name": "EQUINIX INC",
+        "role": "Chief Business Officer",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 18.0,
+                "price_per_share": 958.0048,
+                "total_value": 17244.09
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 31.0,
+                "price_per_share": 959.004,
+                "total_value": 29729.12
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 22.0,
+                "price_per_share": 960.1291,
+                "total_value": 21122.84
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 52.0,
+                "price_per_share": 961.1728,
+                "total_value": 49980.99
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 42.0,
+                "price_per_share": 962.5967,
+                "total_value": 40429.06
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 18.0,
+                "price_per_share": 963.7176,
+                "total_value": 17346.92
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 37.0,
+                "price_per_share": 965.3438,
+                "total_value": 35717.72
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 41.0,
+                "price_per_share": 966.1606,
+                "total_value": 39612.58
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 187.0,
+                "price_per_share": 967.4416,
+                "total_value": 180911.58
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 115.0,
+                "price_per_share": 968.2977,
+                "total_value": 111354.24
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 72.0,
+                "price_per_share": 969.1412,
+                "total_value": 69778.17
+            }
+        ],
+        "accession_number": "0001101239-26-000062"
+    },
+    {
+        "ticker": "PLAB",
+        "insider_name": "Lee Kang Jyh",
+        "company_name": "PHOTRONICS INC",
+        "role": "Director",
+        "is_on_board": true,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-23",
+                "shares": 10000.0,
+                "price_per_share": 39.0,
+                "total_value": 390000.0
+            }
+        ],
+        "accession_number": "0001140361-26-011227"
+    },
+    {
+        "ticker": "GLP",
+        "insider_name": "Romaine Mark",
+        "company_name": "GLOBAL PARTNERS LP",
+        "role": "Chief Operating Officer",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-19",
+                "shares": 3245.0,
+                "price_per_share": 48.1,
+                "total_value": 156084.5
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-20",
+                "shares": 2020.0,
+                "price_per_share": 48.19,
+                "total_value": 97343.8
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-23",
+                "shares": 435.0,
+                "price_per_share": 47.31,
+                "total_value": 20579.85
+            }
+        ],
+        "accession_number": "0001339396-26-000056"
+    },
+    {
+        "ticker": "GLP",
+        "insider_name": "Romaine Mark",
+        "company_name": "GLOBAL PARTNERS LP",
+        "role": "Chief Operating Officer",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-16",
+                "shares": 3376.0,
+                "price_per_share": 47.0,
+                "total_value": 158672.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-17",
+                "shares": 7500.0,
+                "price_per_share": 47.39,
+                "total_value": 355425.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-18",
+                "shares": 4735.0,
+                "price_per_share": 47.76,
+                "total_value": 226143.6
+            }
+        ],
+        "accession_number": "0001339396-26-000049"
+    },
+    {
+        "ticker": "VCEL",
+        "insider_name": "Hagen Heidi",
+        "company_name": "Vericel Corp",
+        "role": "Director",
+        "is_on_board": true,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-23",
+                "shares": 15000.0,
+                "price_per_share": 32.41,
+                "total_value": 486150.0
+            }
+        ],
+        "accession_number": "0001140361-26-011091"
+    },
+    {
+        "ticker": "CBSH",
+        "insider_name": "JAKOVICH KIM L",
+        "company_name": "COMMERCE BANCSHARES INC /MO/",
+        "role": "Senior Vice President",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-05",
+                "shares": 949.0,
+                "price_per_share": 51.45,
+                "total_value": 48826.05
+            }
+        ],
+        "accession_number": "0000022356-26-000100"
+    },
+    {
+        "ticker": "ATAI",
+        "insider_name": "Craig Kevin James",
+        "company_name": "AtaiBeckley Inc.",
+        "role": "Chief Medical Officer",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-20",
+                "shares": 100000.0,
+                "price_per_share": 3.55,
+                "total_value": 355000.0
+            }
+        ],
+        "accession_number": "0001140361-26-010932"
+    },
+    {
+        "ticker": "TVGN",
+        "insider_name": "Flomenberg Neal",
+        "company_name": "Tevogen Bio Holdings Inc.",
+        "role": "See Remarks",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-10",
+                "shares": 19.0,
+                "price_per_share": 7.75,
+                "total_value": 147.25
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-11",
+                "shares": 452.0,
+                "price_per_share": 7.26,
+                "total_value": 3281.52
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-13",
+                "shares": 501.0,
+                "price_per_share": 6.4,
+                "total_value": 3206.4
+            }
+        ],
+        "accession_number": "0001123292-26-000465"
+    },
+    {
+        "ticker": "EQIX",
+        "insider_name": "MORANDI BRANDI GALVIN",
+        "company_name": "EQUINIX INC",
+        "role": "Chief People Officer",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 630.0,
+                "price_per_share": 961.19,
+                "total_value": 605549.7
+            }
+        ],
+        "accession_number": "0001101239-26-000061"
+    },
+    {
+        "ticker": "EQIX",
+        "insider_name": "Meyers Charles J",
+        "company_name": "EQUINIX INC",
+        "role": "Director",
+        "is_on_board": true,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 305.0,
+                "price_per_share": 961.19,
+                "total_value": 293162.95
+            }
+        ],
+        "accession_number": "0001101239-26-000063"
+    },
+    {
+        "ticker": "ANY",
+        "insider_name": "Reppas Tiah Norton",
+        "company_name": "Sphere 3D Corp.",
+        "role": "Chief Accounting Officer",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 6250.0,
+                "price_per_share": 1.61,
+                "total_value": 10062.5
+            }
+        ],
+        "accession_number": "0001062993-26-001430"
+    },
+    {
+        "ticker": "AIR",
+        "insider_name": "Garascia Jessica A.",
+        "company_name": "AAR CORP",
+        "role": "Senior VP, GC, CAO & Secretary",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-26",
+                "shares": 2368.0,
+                "price_per_share": 112.2006,
+                "total_value": 265691.02
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-26",
+                "shares": 1778.0,
+                "price_per_share": 112.2006,
+                "total_value": 199492.67
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-26",
+                "shares": 2138.0,
+                "price_per_share": 112.2006,
+                "total_value": 239884.88
+            }
+        ],
+        "accession_number": "0000001750-26-000036"
+    },
+    {
+        "ticker": "AIR",
+        "insider_name": "Holmes John McClain III",
+        "company_name": "AAR CORP",
+        "role": "Chairman, President & CEO",
+        "is_on_board": true,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-26",
+                "shares": 60000.0,
+                "price_per_share": 112.4135,
+                "total_value": 6744810.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-27",
+                "shares": 2225.0,
+                "price_per_share": 107.6039,
+                "total_value": 239418.68
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-27",
+                "shares": 23950.0,
+                "price_per_share": 107.6039,
+                "total_value": 2577113.4
+            }
+        ],
+        "accession_number": "0000001750-26-000032"
+    },
+    {
+        "ticker": "CBSH",
+        "insider_name": "ROWE MARGARET M",
+        "company_name": "COMMERCE BANCSHARES INC /MO/",
+        "role": "Senior Vice President",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-05",
+                "shares": 861.0,
+                "price_per_share": 51.685,
+                "total_value": 44500.79
+            }
+        ],
+        "accession_number": "0000022356-26-000098"
+    },
+    {
+        "ticker": "ANY",
+        "insider_name": "Kalbfleisch Kurt L.",
+        "company_name": "Sphere 3D Corp.",
+        "role": "CEO and CFO",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-13",
+                "shares": 9800.0,
+                "price_per_share": 1.59,
+                "total_value": 15582.0
+            }
+        ],
+        "accession_number": "0001062993-26-001428"
+    },
+    {
+        "ticker": "ACMR",
+        "insider_name": "Pappis Charles C",
+        "company_name": "ACM Research, Inc.",
+        "role": "Director",
+        "is_on_board": true,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-05",
+                "shares": 5000.0,
+                "price_per_share": 50.09,
+                "total_value": 250450.0
+            }
+        ],
+        "accession_number": "0001140361-26-008480"
+    },
+    {
+        "ticker": "EQIX",
+        "insider_name": "TAYLOR KEITH D",
+        "company_name": "EQUINIX INC",
+        "role": "Chief Financial Officer",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 760.0,
+                "price_per_share": 961.19,
+                "total_value": 730504.4
+            }
+        ],
+        "accession_number": "0001101239-26-000067"
+    },
+    {
+        "ticker": "TROX",
+        "insider_name": "Flood Jonathan",
+        "company_name": "Tronox Holdings plc",
+        "role": "Principal Accounting Officer",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-05",
+                "shares": 7000.0,
+                "price_per_share": 7.5503,
+                "total_value": 52852.1
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-06",
+                "shares": 8008.0,
+                "price_per_share": 6.5845,
+                "total_value": 52728.68
+            }
+        ],
+        "accession_number": "0001140361-26-008498"
+    },
+    {
+        "ticker": "GLP",
+        "insider_name": "Romaine Mark",
+        "company_name": "GLOBAL PARTNERS LP",
+        "role": "Chief Operating Officer",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-11",
+                "shares": 1649.0,
+                "price_per_share": 48.03,
+                "total_value": 79201.47
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 1148.0,
+                "price_per_share": 47.56,
+                "total_value": 54598.88
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-13",
+                "shares": 900.0,
+                "price_per_share": 47.5,
+                "total_value": 42750.0
+            }
+        ],
+        "accession_number": "0001339396-26-000047"
+    },
+    {
+        "ticker": "TROX",
+        "insider_name": "Engle Jeffrey A.",
+        "company_name": "Tronox Holdings plc",
+        "role": "SVP, Chief Commercial Officer",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-06",
+                "shares": 14575.0,
+                "price_per_share": 6.596,
+                "total_value": 96136.7
+            }
+        ],
+        "accession_number": "0001140361-26-008499"
+    },
+    {
+        "ticker": "TROX",
+        "insider_name": "Srivisal John",
+        "company_name": "Tronox Holdings plc",
+        "role": "SVP, Chief Financial Officer",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-06",
+                "shares": 19461.0,
+                "price_per_share": 6.5925,
+                "total_value": 128296.64
+            }
+        ],
+        "accession_number": "0001140361-26-008502"
+    },
+    {
+        "ticker": "TMO",
+        "insider_name": "CASPER MARC N",
+        "company_name": "THERMO FISHER SCIENTIFIC INC.",
+        "role": "Chairman & CEO",
+        "is_on_board": true,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-05",
+                "shares": 20.0,
+                "price_per_share": 503.66,
+                "total_value": 10073.2
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-05",
+                "shares": 60.0,
+                "price_per_share": 505.76,
+                "total_value": 30345.6
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-05",
+                "shares": 58.0,
+                "price_per_share": 507.54,
+                "total_value": 29437.32
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-05",
+                "shares": 99.0,
+                "price_per_share": 509.66,
+                "total_value": 50456.34
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-05",
+                "shares": 214.0,
+                "price_per_share": 511.78,
+                "total_value": 109520.92
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-05",
+                "shares": 411.0,
+                "price_per_share": 512.73,
+                "total_value": 210732.03
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-05",
+                "shares": 1133.0,
+                "price_per_share": 513.71,
+                "total_value": 582033.43
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-05",
+                "shares": 570.0,
+                "price_per_share": 514.71,
+                "total_value": 293384.7
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-05",
+                "shares": 348.0,
+                "price_per_share": 515.64,
+                "total_value": 179442.72
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-05",
+                "shares": 201.0,
+                "price_per_share": 516.73,
+                "total_value": 103862.73
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-05",
+                "shares": 106.0,
+                "price_per_share": 517.83,
+                "total_value": 54889.98
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-05",
+                "shares": 516.0,
+                "price_per_share": 519.13,
+                "total_value": 267871.08
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-05",
+                "shares": 264.0,
+                "price_per_share": 519.74,
+                "total_value": 137211.36
+            }
+        ],
+        "accession_number": "0000097745-26-000058"
+    },
+    {
+        "ticker": "NONE",
+        "insider_name": "Qatar Investment Authority",
+        "company_name": "West Bay BDC LLC",
+        "role": "N/A",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "BUY",
+                "date": "2026-03-13",
+                "shares": 2577319.5876,
+                "price_per_share": 17.46,
+                "total_value": 45000000.0
+            }
+        ],
+        "accession_number": "0001140361-26-009860"
+    },
+    {
+        "ticker": "TROX",
+        "insider_name": "Romano John D",
+        "company_name": "Tronox Holdings plc",
+        "role": "CEO and Director",
+        "is_on_board": true,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-06",
+                "shares": 101600.0,
+                "price_per_share": 6.5909,
+                "total_value": 669635.44
+            }
+        ],
+        "accession_number": "0001140361-26-008503"
+    },
+    {
+        "ticker": "CORZ",
+        "insider_name": "DUCHENE TODD M",
+        "company_name": "Core Scientific, Inc./tx",
+        "role": "See remarks",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-04-01",
+                "shares": 10000.0,
+                "price_per_share": 15.2523,
+                "total_value": 152523.0
+            }
+        ],
+        "accession_number": "0000905148-26-001502"
+    },
+    {
+        "ticker": "AIR",
+        "insider_name": "Nolen Billy",
+        "company_name": "AAR CORP",
+        "role": "Director",
+        "is_on_board": true,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-26",
+                "shares": 1562.0,
+                "price_per_share": 111.0019,
+                "total_value": 173384.97
+            }
+        ],
+        "accession_number": "0000001750-26-000028"
+    },
+    {
+        "ticker": "SCISX",
+        "insider_name": "MA Eagle Holdings Fund",
+        "company_name": "MA Specialty Credit Income Fund",
+        "role": "N/A",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "BUY",
+                "date": "2026-03-12",
+                "shares": 21103.504,
+                "price_per_share": 24.83,
+                "total_value": 524000.0
+            }
+        ],
+        "accession_number": "0000945621-26-000446"
+    },
+    {
+        "ticker": "INSW",
+        "insider_name": "Zabrocky Lois K",
+        "company_name": "International Seaways, Inc.",
+        "role": "President & CEO",
+        "is_on_board": true,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-16",
+                "shares": 2000.0,
+                "price_per_share": 67.7894,
+                "total_value": 135578.8
+            }
+        ],
+        "accession_number": "0001679049-26-000092"
+    },
+    {
+        "ticker": "PLOW",
+        "insider_name": "Sisulak Jon J",
+        "company_name": "DOUGLAS DYNAMICS, INC",
+        "role": "Controller",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-09",
+                "shares": 977.0,
+                "price_per_share": 42.6065,
+                "total_value": 41626.55
+            }
+        ],
+        "accession_number": "0000897069-26-000676"
+    },
+    {
+        "ticker": "TROX",
+        "insider_name": "Neuman Jeffrey N",
+        "company_name": "Tronox Holdings plc",
+        "role": "SVP, General Counsel & Sec.",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-06",
+                "shares": 22965.0,
+                "price_per_share": 6.5945,
+                "total_value": 151442.69
+            }
+        ],
+        "accession_number": "0001140361-26-008500"
+    },
+    {
+        "ticker": "FANG",
+        "insider_name": "SGF FANG Holdings, LP",
+        "company_name": "Diamondback Energy, Inc.",
+        "role": "N/A",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 12650000.0,
+                "price_per_share": 170.1888,
+                "total_value": 2152888320.0
+            }
+        ],
+        "accession_number": "0001140361-26-009622"
+    },
+    {
+        "ticker": "IP",
+        "insider_name": "GUSTAFSSON ANDERS",
+        "company_name": "INTERNATIONAL PAPER CO /NEW/",
+        "role": "Director",
+        "is_on_board": true,
+        "transactions": [
+            {
+                "action": "BUY",
+                "date": "2026-03-11",
+                "shares": 12875.0,
+                "price_per_share": 38.8368,
+                "total_value": 500023.8
+            },
+            {
+                "action": "BUY",
+                "date": "2026-03-12",
+                "shares": 13217.0,
+                "price_per_share": 37.831,
+                "total_value": 500012.33
+            }
+        ],
+        "accession_number": "0000051434-26-000058"
+    },
+    {
+        "ticker": "SCISX",
+        "insider_name": "MA Eagle Holdings Fund",
+        "company_name": "MA Specialty Credit Income Fund",
+        "role": "N/A",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "BUY",
+                "date": "2026-03-05",
+                "shares": 139017.971,
+                "price_per_share": 24.8,
+                "total_value": 3447645.68
+            }
+        ],
+        "accession_number": "0000945621-26-000419"
+    },
+    {
+        "ticker": "EME",
+        "insider_name": "Guzzi Anthony",
+        "company_name": "EMCOR Group, Inc.",
+        "role": "Chairman, President and CEO",
+        "is_on_board": true,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-05",
+                "shares": 36000.0,
+                "price_per_share": 729.48,
+                "total_value": 26261280.0
+            }
+        ],
+        "accession_number": "0000105634-26-000039"
+    },
+    {
+        "ticker": "SCISX",
+        "insider_name": "Marra Joseph P.",
+        "company_name": "MA Specialty Credit Income Fund",
+        "role": "President & Prin. Ex. Off.",
+        "is_on_board": true,
+        "transactions": [
+            {
+                "action": "BUY",
+                "date": "2026-04-01",
+                "shares": 1012.966,
+                "price_per_share": 24.68,
+                "total_value": 25000.0
+            }
+        ],
+        "accession_number": "0000945621-26-000519"
+    },
+    {
+        "ticker": "FFBC",
+        "insider_name": "Shank James R",
+        "company_name": "FIRST FINANCIAL BANCORP /OH/",
+        "role": "Chief Internal Auditor",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-16",
+                "shares": 3420.0,
+                "price_per_share": 27.1,
+                "total_value": 92682.0
+            }
+        ],
+        "accession_number": "0000708955-26-000072"
+    },
+    {
+        "ticker": "NC",
+        "insider_name": "Maxwell Thomas A",
+        "company_name": "NACCO INDUSTRIES INC",
+        "role": "SVP Finance and Treasurer",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-09",
+                "shares": 1785.0,
+                "price_per_share": 48.55,
+                "total_value": 86661.75
+            }
+        ],
+        "accession_number": "0000789933-26-000073"
+    },
+    {
+        "ticker": "NC",
+        "insider_name": "Loveman Elizabeth",
+        "company_name": "NACCO INDUSTRIES INC",
+        "role": "SVP and Controller",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-12",
+                "shares": 4053.0,
+                "price_per_share": 52.0443,
+                "total_value": 210935.55
+            }
+        ],
+        "accession_number": "0000789933-26-000075"
+    },
+    {
+        "ticker": "NC",
+        "insider_name": "Loveman Elizabeth",
+        "company_name": "NACCO INDUSTRIES INC",
+        "role": "SVP and Controller",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-13",
+                "shares": 1662.0,
+                "price_per_share": 51.44,
+                "total_value": 85493.28
+            }
+        ],
+        "accession_number": "0000789933-26-000077"
+    },
+    {
+        "ticker": "CBSH",
+        "insider_name": "DUNN TIMOTHY S",
+        "company_name": "COMMERCE BANCSHARES INC /MO/",
+        "role": "Director",
+        "is_on_board": true,
+        "transactions": [
+            {
+                "action": "BUY",
+                "date": "2026-03-13",
+                "shares": 2500.0,
+                "price_per_share": 47.71,
+                "total_value": 119275.0
+            }
+        ],
+        "accession_number": "0000022356-26-000112"
+    },
+    {
+        "ticker": "FIVE",
+        "insider_name": "BULL KENNETH R",
+        "company_name": "FIVE BELOW, INC",
+        "role": "COO",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-20",
+                "shares": 2000.0,
+                "price_per_share": 236.07,
+                "total_value": 472140.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-20",
+                "shares": 2030.0,
+                "price_per_share": 235.46,
+                "total_value": 477983.8
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-20",
+                "shares": 5970.0,
+                "price_per_share": 233.04,
+                "total_value": 1391248.8
+            }
+        ],
+        "accession_number": "0001192482-26-000191"
+    },
+    {
+        "ticker": "METC",
+        "insider_name": "Yorktown Energy Partners IX, L.P.",
+        "company_name": "Ramaco Resources, Inc.",
+        "role": "N/A",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-24",
+                "shares": 3020.0,
+                "price_per_share": 11.5756,
+                "total_value": 34958.31
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-25",
+                "shares": 3823.0,
+                "price_per_share": 11.2376,
+                "total_value": 42961.34
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-26",
+                "shares": 2364.0,
+                "price_per_share": 10.7833,
+                "total_value": 25491.72
+            }
+        ],
+        "accession_number": "0001140361-26-011472"
+    },
+    {
+        "ticker": "METC",
+        "insider_name": "Yorktown IX Associates LLC",
+        "company_name": "Ramaco Resources, Inc.",
+        "role": "N/A",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-24",
+                "shares": 3020.0,
+                "price_per_share": 11.5756,
+                "total_value": 34958.31
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-25",
+                "shares": 3823.0,
+                "price_per_share": 11.2376,
+                "total_value": 42961.34
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-26",
+                "shares": 2364.0,
+                "price_per_share": 10.7833,
+                "total_value": 25491.72
+            }
+        ],
+        "accession_number": "0001140361-26-011473"
+    },
+    {
+        "ticker": "METC",
+        "insider_name": "Yorktown XI Associates LLC",
+        "company_name": "Ramaco Resources, Inc.",
+        "role": "N/A",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-24",
+                "shares": 3060.0,
+                "price_per_share": 11.5756,
+                "total_value": 35421.34
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-25",
+                "shares": 3874.0,
+                "price_per_share": 11.2376,
+                "total_value": 43534.46
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-26",
+                "shares": 2396.0,
+                "price_per_share": 10.7833,
+                "total_value": 25836.79
+            }
+        ],
+        "accession_number": "0001140361-26-011471"
+    },
+    {
+        "ticker": "NRT",
+        "insider_name": "HOWARD RICHARD PAGE",
+        "company_name": "NORTH EUROPEAN OIL ROYALTY TRUST",
+        "role": "N/A",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-17",
+                "shares": 10000.0,
+                "price_per_share": 8.7323,
+                "total_value": 87323.0
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-17",
+                "shares": 15000.0,
+                "price_per_share": 8.5519,
+                "total_value": 128278.5
+            }
+        ],
+        "accession_number": "0001140361-26-010441"
+    },
+    {
+        "ticker": "PLAB",
+        "insider_name": "Lee Kang Jyh",
+        "company_name": "PHOTRONICS INC",
+        "role": "Director",
+        "is_on_board": true,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-26",
+                "shares": 5000.0,
+                "price_per_share": 40.8,
+                "total_value": 204000.0
+            }
+        ],
+        "accession_number": "0001140361-26-012079"
+    },
+    {
+        "ticker": "METC",
+        "insider_name": "Yorktown Energy Partners XI, L.P.",
+        "company_name": "Ramaco Resources, Inc.",
+        "role": "N/A",
+        "is_on_board": false,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-27",
+                "shares": 8168.0,
+                "price_per_share": 10.9327,
+                "total_value": 89298.29
+            },
+            {
+                "action": "SELL",
+                "date": "2026-03-30",
+                "shares": 2297.0,
+                "price_per_share": 10.3381,
+                "total_value": 23746.62
+            }
+        ],
+        "accession_number": "0001140361-26-012436"
+    },
+    {
+        "ticker": "ROIV",
+        "insider_name": "Fitzgerald Meghan",
+        "company_name": "Roivant Sciences Ltd.",
+        "role": "Director",
+        "is_on_board": true,
+        "transactions": [
+            {
+                "action": "SELL",
+                "date": "2026-03-26",
+                "shares": 70000.0,
+                "price_per_share": 27.45,
+                "total_value": 1921500.0
+            }
+        ],
+        "accession_number": "0001140361-26-012063"
+    }
+]

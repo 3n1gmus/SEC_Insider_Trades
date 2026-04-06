@@ -33,7 +33,7 @@ jobs:
       - name: Run Insider Trade Tracker
         run: |
           source venv/bin/activate
-          python Insider_Trade_Tracker.py
+          python Insider_Trade_Tracker.py --limit 0 --days 7
 
       - name: Find Executive Sentiments
         run: |
@@ -43,6 +43,9 @@ jobs:
       - name: Process Reports and Send Email
         run: |
           source venv/bin/activate
+          # DEBUG: List files to see if they exist
+          ls -R 
+          # Run the script
           python report_processor.py
 
       - name: Upload Logs/Results (Optional)

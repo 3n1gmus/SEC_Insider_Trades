@@ -103,10 +103,18 @@ def send_bulk_emails(html_content, recipient_list):
 
 if __name__ == "__main__":
     reports = glob.glob("cluster_analysis*.json")
-    recipients = load_recipients("recipients.txt")
+    recipients_file = "recipients.txt"
     
+    if not reports:
+        print(f"Error: No files matching 'cluster_analysis*.json' found in {os.getcwd()}")
+    
+    if not os.path.exists(recipients_file):
+        print(f"Error: {recipients_file} not found in {os.getcwd()}")
+    else:
+        recipients = load_recipients(recipients_file)
+        if not recipients:
+            print("Error: recipients.txt is empty.")
+
     if reports and recipients:
         html = generate_html_summary(reports)
         send_bulk_emails(html, recipients)
-    else:
-        print("Missing reports or recipient list.")

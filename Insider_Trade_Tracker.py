@@ -131,7 +131,7 @@ def main():
     parser.add_argument("--days", type=int, default=30)
     parser.add_argument("--start", help="Start date YYYY-MM-DD")
     parser.add_argument("--end", help="End date YYYY-MM-DD")
-    parser.add_argument("--limit", type=int, default=100)
+    parser.add_argument("--limit", type=int, default=0)
     args = parser.parse_args()
 
     end_date = args.end if args.end else datetime.now().strftime('%Y-%m-%d')

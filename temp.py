@@ -1,99 +1,95 @@
 import json
 import pandas as pd
-from datetime import timedelta
+from collections import defaultdict
 import os
 
-def analyze_insider_clusters(input_filename, window_days=14, min_insiders=2):
-    """
-    Groups insider trades into 14-day windows and flags clusters where multiple 
-    high-level directors/officers traded close together.
-    """
+def analyze_insider_clusters(input_filename, share_threshold=10000):
     if not os.path.exists(input_filename):
-        print(f"Error: {input_filename} not found.")
+        print(f"Error: The file '{input_filename}' was not found.")
         return
 
     with open(input_filename, 'r') as f:
-        data = json.load(f)
+        try:
+            data = json.load(f)
+        except json.JSONDecodeError:
+            print(f"Error: Failed to decode JSON from '{input_filename}'.")
+            return
 
-    # 1. Filter for High-Level Officers/Directors only
-    target_roles = ['director', 'president', 'ceo', 'coo', 'cfo', 'vp', 'chairman', 'chief', 'general counsel']
-    
-    rows = []
+    company_activity = defaultdict(lambda: {
+        "insiders": set(),
+        "total_shares_bought": 0,
+        "total_shares_sold": 0,
+        "total_value_bought": 0.0,
+        "total_value_sold": 0.0,
+        "insider_details": []
+    })
+
+    target_roles = ['Director', 'President', 'CEO', 'COO', 'CFO', 'VP', 'General Counsel', 'Chief']
+
     for entry in data:
-        role = str(entry.get('role', '')).lower()
-        # Filter for Board members OR people with target keywords in their title
-        if entry.get('is_on_board', False) or any(r in role for r in target_roles):
-            for tx in entry.get('transactions', []):
-                rows.append({
-                    'ticker': entry['ticker'],
-                    'company': entry['company_name'],
-                    'insider': entry['insider_name'],
-                    'role': entry.get('role', 'N/A'),
-                    'date': pd.to_datetime(tx['date']),
-                    'action': tx['action'],
-                    'shares': tx['shares'],
-                    'value': tx.get('total_value', 0)
-                })
+        company = entry['company_name']
+        insider = entry['insider_name']
+        role = entry.get('role', 'N/A')
+        is_board = entry.get('is_on_board', False)
+        
+        is_high_level = is_board or any(r.lower() in str(role).lower() for r in target_roles)
 
-    df = pd.DataFrame(rows)
-    if df.empty:
-        print("No high-level trades found.")
-        return
+        if is_high_level:
+            for tx in entry['transactions']:
+                shares = tx['shares']
+                price = tx.get('price_per_share', 0.0)
+                value = tx.get('total_value', 0.0)
+                if value == 0 and price > 0:
+                    value = shares * price
+                
+                if tx['action'].upper() == 'BUY':
+                    company_activity[company]["total_shares_bought"] += shares
+                    company_activity[company]["total_value_bought"] += value
+                else:
+                    company_activity[company]["total_shares_sold"] += shares
+                    company_activity[company]["total_value_sold"] += value
+            
+            if insider not in company_activity[company]["insiders"]:
+                company_activity[company]["insiders"].add(insider)
+                company_activity[company]["insider_details"].append(f"{insider} ({role})")
 
     results = []
-    
-    # 2. Analyze by Company
-    for company, group in df.groupby('company'):
-        group = group.sort_values('date')
+    for company, info in company_activity.items():
+        total_volume = info["total_shares_bought"] + info["total_shares_sold"]
         
-        # Track which dates we've already "covered" in a cluster to avoid redundant output
-        covered_until = pd.Timestamp.min
-
-        for i, start_trade in group.iterrows():
-            if start_trade['date'] <= covered_until:
-                continue
-                
-            window_end = start_trade['date'] + timedelta(days=window_days)
-            window_trades = group.loc[(group['date'] >= start_trade['date']) & (group['date'] <= window_end)]
+        if len(info["insiders"]) > 1 and total_volume >= share_threshold:
+            net_shares = info["total_shares_bought"] - info["total_shares_sold"]
+            net_value = info["total_value_bought"] - info["total_value_sold"]
             
-            unique_insiders = window_trades['insider'].unique()
-            
-            # 3. Only keep if at least X different high-level people traded in this window
-            if len(unique_insiders) >= min_insiders:
-                # Calculate the cluster sentiment (more buyers = bullish, more sellers = bearish)
-                buy_count = (window_trades['action'] == 'BUY').sum()
-                sell_count = (window_trades['action'] == 'SELL').sum()
-                
-                cluster_info = {
-                    "company": company,
-                    "ticker": window_trades['ticker'].iloc[0],
-                    "cluster_start": str(start_trade['date'].date()),
-                    "cluster_end": str(window_trades['date'].max().date()),
-                    "insider_count": int(len(unique_insiders)),
-                    "total_net_value": float(window_trades.apply(lambda x: x['value'] if x['action'] == 'BUY' else -x['value'], axis=1).sum()),
-                    "sentiment": "BULLISH" if buy_count > sell_count else "BEARISH",
-                    "insiders_involved": []
-                }
+            # --- NEW LOGIC: Identify Operation Type ---
+            if net_value > 0:
+                operation_type = "BUY"
+            elif net_value < 0:
+                operation_type = "SELL"
+            else:
+                operation_type = "NEUTRAL"
 
-                # Build summary list of insiders in this specific cluster
-                for name in unique_insiders:
-                    p_trades = window_trades[window_trades['insider'] == name]
-                    cluster_info["insiders_involved"].append({
-                        "name": name,
-                        "role": p_trades['role'].iloc[0],
-                        "summary": f"{p_trades['action'].iloc[0]} {int(p_trades['shares'].sum()):,} total shares"
-                    })
-                
-                results.append(cluster_info)
-                # Move forward so we don't report the same cluster overlappingly
-                covered_until = window_end
+            results.append({
+                "Company": company,
+                "Operation": operation_type, # Added Column
+                "Insiders Count": len(info["insiders"]),
+                "Net Shares": net_shares,
+                "Net Value ($)": round(net_value, 2),
+                "Insiders Involved": "; ".join(info["insider_details"])
+            })
 
-    # 4. Save to JSON
-    output_filename = f"cluster_analysis.json"
-    with open(output_filename, 'w') as f:
-        json.dump(results, f, indent=4)
-    
-    print(f"Success. Found {len(results)} clusters. Results saved to {output_filename}")
+    df = pd.DataFrame(results)
+    if not df.empty:
+        # Sort by count and then value for clarity
+        df = df.sort_values(by=["Insiders Count", "Net Value ($)"], ascending=[False, False])
+        output_file = f"analysis_of_{os.path.splitext(input_filename)[0]}.csv"
+        df.to_csv(output_file, index=False)
+        print(f"Analysis complete. Results saved to {output_file}")
+        print(df)
+    else:
+        print(f"No clusters meeting the criteria were found.")
+
+FILE_TO_REVIEW = 'insider_analysis.json'
 
 if __name__ == "__main__":
-    analyze_insider_clusters('insider_analysis.json')
+    analyze_insider_clusters(FILE_TO_REVIEW)
