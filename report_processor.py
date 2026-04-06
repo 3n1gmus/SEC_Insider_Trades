@@ -1,4 +1,4 @@
-import json
+import pandas as pd
 import smtplib
 import glob
 import os
@@ -10,111 +10,99 @@ def load_recipients(filepath="recipients.txt"):
     if not os.path.exists(filepath):
         print(f"Warning: {filepath} not found.")
         return []
-    
     with open(filepath, "r") as f:
-        # Strip whitespace and ignore empty lines
-        emails = [line.strip() for line in f if line.strip()]
-    return emails
+        return [line.strip() for line in f if line.strip()]
 
-def generate_html_summary(file_list):
-    """Aggregates data from multiple JSON reports into one HTML body."""
+def generate_html_summary(csv_files):
+    """Parses the new CSV format and creates an HTML table."""
     rows_html = ""
     
-    # Sort files to ensure consistency
-    for file_path in sorted(file_list):
-        with open(file_path, 'r') as f:
-            try:
-                data = json.load(f)
-            except:
-                continue
+    for file in csv_files:
+        df = pd.read_csv(file)
+        
+        for _, row in df.iterrows():
+            # Sentiment color coding
+            op = str(row['Operation']).upper()
+            color = "#28a745" if op == "BUY" else "#dc3545"
             
-            for cluster in data:
-                color = "#28a745" if cluster['sentiment'] == "BULLISH" else "#dc3545"
-                val = f"${cluster['total_net_value']:,.2f}"
-                
-                rows_html += f"""
-                <tr>
-                    <td style="padding: 12px; border-bottom: 1px solid #ddd;">{cluster['ticker']}</td>
-                    <td style="padding: 12px; border-bottom: 1px solid #ddd;">{cluster['company']}</td>
-                    <td style="padding: 12px; border-bottom: 1px solid #ddd; color: {color}; font-weight: bold;">{cluster['sentiment']}</td>
-                    <td style="padding: 12px; border-bottom: 1px solid #ddd;">{cluster['insider_count']}</td>
-                    <td style="padding: 12px; border-bottom: 1px solid #ddd; text-align: right;">{val}</td>
-                </tr>
-                """
-    
+            # Format currency
+            val = f"${row['Net Value ($)']:,.2f}"
+            
+            # Clean up the insiders list for the email (replace semicolons with breaks)
+            insiders_list = str(row['Insiders Involved']).replace("; ", "<br>• ")
+            
+            rows_html += f"""
+            <tr style="border-bottom: 1px solid #eee;">
+                <td style="padding: 12px; vertical-align: top;"><strong>{row['Company']}</strong></td>
+                <td style="padding: 12px; vertical-align: top; color: {color}; font-weight: bold;">{op}</td>
+                <td style="padding: 12px; vertical-align: top; text-align: center;">{row['Insiders Count']}</td>
+                <td style="padding: 12px; vertical-align: top; text-align: right; font-family: monospace;">{val}</td>
+                <td style="padding: 12px; font-size: 11px; color: #666; line-height: 1.4;">• {insiders_list}</td>
+            </tr>
+            """
+
     return f"""
     <html>
-    <body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #333; line-height: 1.6;">
-        <div style="max-width: 800px; margin: auto; border: 1px solid #eee; padding: 20px; border-radius: 10px;">
-            <h2 style="color: #004085; border-bottom: 2px solid #004085; padding-bottom: 10px;">SEC Insider Trading Alert</h2>
-            <p>Multiple high-level clusters detected in the latest filing window:</p>
-            <table style="width: 100%; border-collapse: collapse;">
+    <body style="font-family: Arial, sans-serif; margin: 0; padding: 20px; background-color: #f9f9f9;">
+        <div style="max-width: 900px; margin: auto; background: white; padding: 20px; border-radius: 8px; border: 1px solid #ddd;">
+            <h2 style="color: #004085; border-bottom: 2px solid #004085; padding-bottom: 10px;">Insider Cluster Alert</h2>
+            <p>The following high-level insider clusters were identified in the recent filings:</p>
+            <table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
                 <thead>
-                    <tr style="background-color: #f8f9fa;">
-                        <th style="padding: 12px; text-align: left;">Ticker</th>
+                    <tr style="background-color: #004085; color: white;">
                         <th style="padding: 12px; text-align: left;">Company</th>
-                        <th style="padding: 12px; text-align: left;">Sentiment</th>
-                        <th style="padding: 12px; text-align: left;">Insiders</th>
+                        <th style="padding: 12px; text-align: left;">Type</th>
+                        <th style="padding: 12px; text-align: center;">Count</th>
                         <th style="padding: 12px; text-align: right;">Net Value</th>
+                        <th style="padding: 12px; text-align: left;">Insiders Involved</th>
                     </tr>
                 </thead>
                 <tbody>
                     {rows_html}
                 </tbody>
             </table>
-            <footer style="margin-top: 30px; font-size: 11px; color: #888;">
-                This automated report monitors Directors, CEOs, CFOs, and COOs. 
-                <br>Generated by: <strong>SEC_Insider_Trades Agent</strong>
-            </footer>
+            <p style="font-size: 11px; color: #999; margin-top: 30px; text-align: center;">
+                Generated by SEC_Insider_Trades Agent
+            </p>
         </div>
     </body>
     </html>
     """
 
-def send_bulk_emails(html_content, recipient_list):
-    """Connects to SMTP once and sends to the entire list."""
-    if not recipient_list:
-        print("No recipients found. Aborting.")
+def send_emails(html_content, recipients):
+    sender = os.getenv("SENDER_EMAIL")
+    password = os.getenv("SENDER_PASSWORD")
+    
+    if not sender or not password:
+        print("Error: SMTP credentials missing from environment variables.")
         return
 
-    # Security: Use GitHub Secrets / Env Vars for your credentials
-    SENDER_EMAIL = os.getenv("SENDER_EMAIL")
-    SENDER_PASSWORD = os.getenv("SENDER_PASSWORD") 
-    
     try:
-        # Establish connection once
         server = smtplib.SMTP("smtp.gmail.com", 587)
         server.starttls()
-        server.login(SENDER_EMAIL, SENDER_PASSWORD)
+        server.login(sender, password)
 
-        for email in recipient_list:
+        for email in recipients:
             msg = MIMEMultipart()
-            msg['From'] = SENDER_EMAIL
+            msg['From'] = sender
             msg['To'] = email
-            msg['Subject'] = f"🚨 Insider Alert: {len(recipient_list)} Targets Identified"
+            msg['Subject'] = "🚨 High-Level Insider Cluster Detected"
             msg.attach(MIMEText(html_content, 'html'))
-            
             server.send_message(msg)
-            print(f"Sent to: {email}")
-
+            print(f"Sent successfully to {email}")
+        
         server.quit()
     except Exception as e:
-        print(f"SMTP Error: {e}")
+        print(f"Failed to send email: {e}")
 
 if __name__ == "__main__":
-    reports = glob.glob("cluster_analysis*.json")
-    recipients_file = "recipients.txt"
-    
-    if not reports:
-        print(f"Error: No files matching 'cluster_analysis*.json' found in {os.getcwd()}")
-    
-    if not os.path.exists(recipients_file):
-        print(f"Error: {recipients_file} not found in {os.getcwd()}")
-    else:
-        recipients = load_recipients(recipients_file)
-        if not recipients:
-            print("Error: recipients.txt is empty.")
+    # Look for the new CSV format
+    csv_reports = glob.glob("analysis_of_*.csv")
+    email_list = load_recipients("recipients.txt")
 
-    if reports and recipients:
-        html = generate_html_summary(reports)
-        send_bulk_emails(html, recipients)
+    if csv_reports and email_list:
+        html = generate_html_summary(csv_reports)
+        send_emails(html, email_list)
+    else:
+        if not csv_reports: print("No CSV reports found.")
+        if not email_list: print("No recipients found in recipients.txt.")
