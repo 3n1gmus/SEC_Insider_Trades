@@ -44,7 +44,7 @@ jobs:
         run: |
           source venv/bin/activate
           # DEBUG: List files to see if they exist
-          ls -R 
+          # ls -latr 
           # Run the script
           python report_processor.py
 
