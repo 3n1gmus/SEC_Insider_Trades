@@ -15,7 +15,9 @@ def analyze_insider_clusters(input_filename, share_threshold=10000):
             print(f"Error: Failed to decode JSON from '{input_filename}'.")
             return
 
+    # Dictionary now also stores the ticker for each company
     company_activity = defaultdict(lambda: {
+        "ticker": "N/A", # Placeholder for the ticker
         "insiders": set(),
         "total_shares_bought": 0,
         "total_shares_sold": 0,
@@ -28,6 +30,7 @@ def analyze_insider_clusters(input_filename, share_threshold=10000):
 
     for entry in data:
         company = entry['company_name']
+        ticker = entry.get('ticker', 'N/A') # Extract ticker
         insider = entry['insider_name']
         role = entry.get('role', 'N/A')
         is_board = entry.get('is_on_board', False)
@@ -35,6 +38,9 @@ def analyze_insider_clusters(input_filename, share_threshold=10000):
         is_high_level = is_board or any(r.lower() in str(role).lower() for r in target_roles)
 
         if is_high_level:
+            # Save the ticker for the company entry
+            company_activity[company]["ticker"] = ticker
+            
             for tx in entry['transactions']:
                 shares = tx['shares']
                 price = tx.get('price_per_share', 0.0)
@@ -61,17 +67,12 @@ def analyze_insider_clusters(input_filename, share_threshold=10000):
             net_shares = info["total_shares_bought"] - info["total_shares_sold"]
             net_value = info["total_value_bought"] - info["total_value_sold"]
             
-            # --- NEW LOGIC: Identify Operation Type ---
-            if net_value > 0:
-                operation_type = "BUY"
-            elif net_value < 0:
-                operation_type = "SELL"
-            else:
-                operation_type = "NEUTRAL"
+            operation_type = "BUY" if net_value > 0 else "SELL" if net_value < 0 else "NEUTRAL"
 
             results.append({
+                "Ticker": info["ticker"], # New Column Added
                 "Company": company,
-                "Operation": operation_type, # Added Column
+                "Operation": operation_type,
                 "Insiders Count": len(info["insiders"]),
                 "Net Shares": net_shares,
                 "Net Value ($)": round(net_value, 2),
@@ -80,12 +81,11 @@ def analyze_insider_clusters(input_filename, share_threshold=10000):
 
     df = pd.DataFrame(results)
     if not df.empty:
-        # Sort by count and then value for clarity
+        # Sort by count and then value
         df = df.sort_values(by=["Insiders Count", "Net Value ($)"], ascending=[False, False])
         output_file = f"analysis_of_{os.path.splitext(input_filename)[0]}.csv"
         df.to_csv(output_file, index=False)
         print(f"Analysis complete. Results saved to {output_file}")
-        print(df)
     else:
         print(f"No clusters meeting the criteria were found.")
 
