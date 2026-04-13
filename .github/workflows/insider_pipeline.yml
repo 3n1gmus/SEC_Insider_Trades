@@ -2,7 +2,7 @@ name: Insider Analysis Pipeline
 
 on:
   schedule:
-    - cron: '0 7 * * *' # Runs daily at 1:00 PM UTC
+    - cron: '0 7 * * 2-6' # Runs at 7:00 AM UTC every Tuesday to Saturday (adjust as needed)
   workflow_dispatch:      # Allows manual trigger via the "Actions" tab
 
 jobs:
@@ -48,11 +48,11 @@ jobs:
           # Run the script
           python report_processor.py
 
-      - name: Upload Logs/Results (Optional)
-        if: always() # Upload even if a previous step failed
-        uses: actions/upload-artifact@v4
-        with:
-          name: analysis-results
-          path: |
-            *.json
-            *.csv
+      # - name: Upload Logs/Results (Optional)
+      #   if: always() # Upload even if a previous step failed
+      #   uses: actions/upload-artifact@v4
+      #   with:
+      #     name: analysis-results
+      #     path: |
+      #       *.json
+      #       *.csv
